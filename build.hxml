@@ -1,0 +1,3 @@
+--class-path src/code
+--main Game
+--js bin/main.js

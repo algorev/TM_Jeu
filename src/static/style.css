@@ -1,0 +1,77 @@
+#container{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100vw;
+	height: 100vh;
+	background-color: blueviolet;
+	display: grid;
+	grid-template-columns: 70% 30%;
+	grid-column-gap: 0em;
+	grid-row-gap: 0em;
+}
+
+#tty{
+	background-color: brown;
+	overflow-y: scroll;
+}
+
+#secondary{
+	display: grid;
+	grid-template-rows: 1.5em;
+}
+
+#secondary #tabswitch{
+	background-color: chartreuse;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 0em;
+	grid-row-gap: 0em;
+	overflow-y: hidden;
+	/*height: 1.5em;*/
+}
+
+#tabswitch button{
+	border-radius: 0%;
+	background-color: #dddddd;
+	border: none;
+}
+
+#tabswitch button:hover, #tabswitch button.activebutton:hover{
+	background-color: #aaaaaa;
+}
+
+#tabswitch button:active, #tabswitch button.activebutton:active{
+	background-color: #666666;
+}
+
+#tabswitch button.activebutton{
+	background-color: #bbbbbb;
+}
+
+#journal{
+	background-color: pink;
+}
+
+#inventory{
+	background-color: plum;
+}
+
+#tabcontents{
+	height: 100%;
+	width: 100%;
+	background-color: cyan;
+	overflow-y: hidden;
+}
+
+#tabcontents div.currenttab{
+	display: inline-block;
+	height: 100%;
+	width: 100%;
+	overflow-y: scroll;
+	position: relative;
+}
+
+#tabcontents div{
+	display: none;
+}
