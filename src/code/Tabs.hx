@@ -8,12 +8,19 @@ class Tabs {
 		current = Inventory;
 		var tabswitch = Browser.document.getElementById("tabswitch");
 		var tabcontents = Browser.document.getElementById("tabcontents");
+		function changeTab(tab:CurrentTab, button:Element) {
+			switchTabs(tab, tabcontents);
+			for (elem in tabswitch.children){
+				elem.className = "";
+			}
+			makeActiveButton(button);
+		}
 		for (elem in tabswitch.children){
 			if (elem.id == "journalbutton"){
-				elem.onclick = function() {switchTabs(Journal, tabcontents);};
+				elem.onclick = function() {changeTab(Journal, elem);};
 			}
 			else if (elem.id == "inventorybutton"){
-				elem.onclick = function() {switchTabs(Inventory, tabcontents);};
+				elem.onclick = function() {changeTab(Inventory, elem);};
 			}
 		}
 	}
