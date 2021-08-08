@@ -1,24 +1,21 @@
 const gulp = require("gulp");
-const {series, parallel, src, dest, watch} = require("gulp");
+const { series, parallel, src, dest, watch } = require("gulp");
 const exec = require('child_process').exec;
 
-function transferStatic(cb){
+function transferStatic(cb) {
 	return src("src/static/*").pipe(dest("bin/"));
 	cb();
 }
 
-function compileCode(cb){
- 	gulp.task('task', function (cb) {
-  		exec('haxe build.hxml', function (err, stdout, stderr) {
-    			console.log(stdout);
-    			console.log(stderr);
-    			cb(err);
-  		});
-	});	
-	cb();
+function compileCode(cb) {
+	exec('haxe build.hxml', function (err, stdout, stderr) {
+		console.log(stdout);
+		console.log(stderr);
+		cb(err);
+	});
 }
 
-exports.watchSite = function(){
+exports.watchSite = function () {
 	watch("src/static/*", transferStatic);
 }
 
