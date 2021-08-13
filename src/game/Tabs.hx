@@ -1,10 +1,15 @@
+import react.React;
+import react.ReactDOM;
+import react.ReactMacro.jsx;
+import react.ReactComponent;
 import js.html.Element;
 import js.Browser;
 
-class Tabs {
+class Tabs extends ReactComponent {
 	var current:CurrentTab;
 
 	public function new(){
+		super();
 		current = Inventory;
 		var tabswitch = Browser.document.getElementById("tabswitch");
 		var tabcontents = Browser.document.getElementById("tabcontents");
@@ -23,6 +28,10 @@ class Tabs {
 				elem.onclick = function() {changeTab(Inventory, elem);};
 			}
 		}
+	}
+
+	override function render(){
+		return jsx('<div/>');
 	}
 
 	private function switchTabs(target:CurrentTab, tabContents:Element){
@@ -49,4 +58,16 @@ class Tabs {
 enum CurrentTab {
 	Inventory;
 	Journal;
+}
+
+class TabButton extends ReactComponent{
+	var name:String;
+	public function new(kind:CurrentTab){
+		super();
+		this.name = "hi";
+	}
+
+	override function render() {
+		return jsx('<button>{this.name}</button>');
+	}
 }
