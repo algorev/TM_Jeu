@@ -1,3 +1,5 @@
---class-path src/code
+--library react
+-D react_global
+--class-path src/game
 --main Game
---js bin/main.js
+--js bin/game.js

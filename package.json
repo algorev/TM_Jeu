@@ -1,6 +1,12 @@
 {
-  "dependencies": {
+  "name": "jeu-tm",
+  "author": "algorev",
+  "version": "0.1.1",
+  "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-cli": "^2.3.0"
+  },
+  "dependencies": {
+    "http-server": "^0.12.3"
   }
 }
