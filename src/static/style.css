@@ -14,6 +14,7 @@
 #tty{
 	background-color: brown;
 	overflow-y: scroll;
+	padding: 10px 20px 10px 20px;
 }
 
 #secondary{
@@ -74,4 +75,10 @@
 
 #tabcontents div{
 	display: none;
+}
+
+.choice{
+	height: 20em;
+	width: 100%;
+	background-color: coral;
 }
