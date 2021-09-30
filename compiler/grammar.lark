@@ -1,51 +1,32 @@
-fichier: variable fichier | piece
-
+fichier: variable* piece
 variable: "#variable:" nompriv imgpath "\n" varinfo
-
 varinfo: [onset] [onunset] [defaultvalue] "\n"
-
 defaultvalue: "#value:" bool "\n"
-
 onset: "#onSet:" nompub "\n"
-
 onunset: "#onUnset:" nompub "\n"
-
 nompriv: /[a-zA-Z0-9]+/
-
 imgpath: nompriv | "none"
-
 piece: "#room:" nompub "\n" description piececontents
-
 piececontents: "#contents:" "\n\n" piecechoices
-
 piecechoices: choix piecechoices | choix
-
 choix: "#choice:" nompub "\n" description body choiximage requirementlist visibility sideeffects redirect "\n" ["\n"]
-
 nompub: /[a-zA-Z0-9 .\"!?,\-'àéèêöüäïûùôÀÉÈÔ:]+/
-
 description: "#description:" nompub "\n"
-
 body: "#body:" /[a-zA-Z0-9 .\"!?,'àéèêöüäïûùôÀÉÈÔ:\n]+/ "§\n"
-
 visibility: "#visible:" bool "\n"
 
 bool: "true" -> true
     | "false" -> false
 
 choiximage: "#image:" imgpath "\n"
-
 requirementlist: "#requirements:" requirements
-
 requirements: varstate varname "," requirements | varstate varname "\n" | "none" "\n"
 
 varstate: "no" -> no
     | "yes" -> yes
 
 varname: nompriv
-
 sideeffects: "#sideeffects:" effects
-
 effects: varaction varname "," effects | varaction varname "\n" | "none" "\n"
 
 varaction: "set" -> set
