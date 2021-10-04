@@ -112,7 +112,6 @@ Le compilateur produit un fichier JSON de la forme suivante:
 `
 	"variables": {
 		"var1": {
-			"publicName": "...",
 			"imageName": "...", //or null
 			"onSet": "...", //or null
 			"onUnset": "...", //or null

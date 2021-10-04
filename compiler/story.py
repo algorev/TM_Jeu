@@ -34,17 +34,15 @@ class Story:
         return data
 
 class Variable:
-    def __init__(self, privateName, publicName, imageName, onSet, onUnset, value):
-        self.name = privateName
-        self.publicName = publicName
-        self.imageName = imageName
-        self.onSet = onSet
-        self.onUnset = onUnset
-        self.value = True if value else False
+    def __init__(self):
+        self.name = "unnamed"
+        self.imageName = None
+        self.onSet = None
+        self.onUnset = None
+        self.value = True
     
     def serialize(self):
         return {
-                "publicName": self.name,
                 "imageName": self.imageName,
                 "onSet": self.onSet,
                 "onUnset": self.onUnset,

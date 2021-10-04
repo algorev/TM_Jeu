@@ -8,7 +8,12 @@ Created on Wed Sep 15 14:02:10 2021
 import sys
 import os
 import glob
+from pathlib import Path
 from lark import Lark
+from story import *
+
+PREFIX = Path(os.path.dirname(os.path.realpath(__file__)))
+GRAMMAR = PREFIX / Path("grammar.lark")
 
 if len(sys.argv) < 3:
     print("Usage: compiler.py <folder name> <output file>")
@@ -35,19 +40,47 @@ storyData = {
         "rooms": {}
     }
 
-with open("grammar.lark", "r", encoding="utf8") as grammar:
+with open(str(GRAMMAR), "r", encoding="utf8") as grammar:
     parser = Lark(grammar)
+
+story = Story()
+
+def get_attr(attr):
+    return str(attr.children[0]).lstrip()
+
+def make_variable(node):
+    var = Variable()
+    for attr in node.children:
+        if attr.data == "nomprog":
+            var.name = get_attr(attr)
+        if attr.data == "imgpath":
+            var.imageName = get_attr(attr)
+        if attr.data == "varinfo":
+            for info in attr.children:
+                if info.data == "onset":
+                    var.onSet = get_attr(info)
+                if info.data == "onunset":
+                    var.onUnset = get_attr(info)
+                if info.data == "value":
+                    var.value = get_attr(info)
+    return var
+
+def make_room(node):
+    return Room("privateName", "publicName", "description")
 
 for file in glob.glob(sourceDir + "/*.st"):
     with open(file, "r", encoding="utf8") as contents:
         tree = parser.parse(contents.read())
-    for node in tree:
-        print(node.pretty())
-    #run lark on them
-        #if error, signal the filename and the stack trace
-    #edit the tree to flatten the variables and rooms
-    #add to the dictionary
+    for node in tree.children:
+        if node.data == "variable":
+            story.add_variable(make_variable(node))
+        if node.data == "room":
+            #story.add_room(make_room(node))
+            pass
+
+print(story.serialize())
 
 #dump the dictionary as json to the file
+#destFile.write(story.serialize())
 
 destFile.close()

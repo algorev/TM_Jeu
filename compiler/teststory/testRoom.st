@@ -4,6 +4,8 @@
 
 #variable: anothervar anotherImage
 #onSet: Une autre variable vient à vous!
+#onUnset: Etttt elle n'est pas là!
+#value: false
 
 #room: La chambre de torture
 #description: Une pièce de test. Les murs sont blancs. "Je n'aime pas cet endroit", dit le prêtre.
