@@ -2,3 +2,4 @@ bin/
 node_modules/
 testserver/
 package_lock.json
+*.pyc
