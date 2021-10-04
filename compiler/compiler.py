@@ -61,8 +61,12 @@ def make_variable(node):
                     var.onSet = get_attr(info)
                 if info.data == "onunset":
                     var.onUnset = get_attr(info)
-                if info.data == "value":
-                    var.value = get_attr(info)
+                if info.data == "defaultvalue":
+                    val = get_attr(info)
+                    if val == "true":
+                        var.value = True
+                    else:
+                        var.value = False
     return var
 
 def make_room(node):
