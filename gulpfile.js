@@ -15,12 +15,21 @@ function compileCode(cb) {
 	});
 }
 
+function compileStory(cb) {
+	exec('python compiler/compiler.py src/story _tempstory.json', function (err, stdout, stderr) {
+		console.log(stdout);
+		console.log(stderr);
+		cb(err);
+	});
+}
+
 exports.watchSite = function () {
 	watch("src/static/*", transferStatic);
 }
 
-let makeAll = parallel(compileCode, transferStatic);
+let compileGame = series(compileStory, compileCode);
+let makeAll = parallel(compileGame, transferStatic);
 
 exports.default = makeAll;
-exports.compile = compileCode;
+exports.compile = compileGame;
 exports.update = transferStatic;

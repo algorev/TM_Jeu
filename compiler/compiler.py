@@ -134,14 +134,19 @@ def make_choice(node):
         if attr.data == "body":
             choice.body = get_attr(attr)
         if attr.data == "choiximage":
-            if attr.children[0] == "none":
+            imageName = get_attr(attr.children[0])
+            if imageName == "none":
                 choice.imageName = None
             else:
-                choice.imageName = get_attr(attr.children[0])
+                choice.imageName = imageName
         if attr.data == "visibility":
             choice.visibility = True if get_attr(attr) == "true" else False
         if attr.data == "redirect":
-            choice.nextRoom = get_attr(attr)
+            nextRoom = get_attr(attr)
+            if nextRoom == "none":
+                choice.nextRoom = None
+            else:
+                choice.nextRoom = nextRoom
         if attr.data == "sideeffects":
             for key, effects in list_sideeffects(attr).items():
                 for effect in effects:
