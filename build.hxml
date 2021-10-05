@@ -3,3 +3,4 @@
 --class-path src/game
 --main Game
 --js bin/game.js
+--resource _tempstory.json@storyText
