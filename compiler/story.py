@@ -56,23 +56,23 @@ class Choice:
     SIDEEFFECT_UNSET = "unset"
     SIDEEFFECT_FLIP = "flip"
     
-    def __init__(self, privateName, publicName, description, body, imageName, visible, nextRoom):
-        self.name = privateName
-        self.publicName = publicName
-        self.description = description
-        self.body = body
-        self.imageName = imageName
+    def __init__(self):
+        self.name = "UnnamedChoice"
+        self.publicName = ""
+        self.description = ""
+        self.body = ""
+        self.imageName = None
         self.requirements = {
             "yes": [],
             "no": []
             }
-        self.visible = visible
+        self.visible = True
         self.sideEffects = {
             "set": [],
             "unset": [],
             "flip": []
             }
-        self.nextRoom = nextRoom
+        self.nextRoom = "error"
     
     def add_requirement(self, varname, reqtype):
         if reqtype in [Choice.REQUIREMENT_YES, Choice.REQUIREMENT_NO]:
@@ -99,10 +99,10 @@ class Choice:
             }
 
 class Room:
-    def __init__(self, privateName, publicName, description):
-        self.name = privateName
-        self.publicName = publicName
-        self.description = description
+    def __init__(self):
+        self.name = "UnnamedRoom"
+        self.publicName = ""
+        self.description = ""
         self.choices = []
     
     def add_choice(self, choice):

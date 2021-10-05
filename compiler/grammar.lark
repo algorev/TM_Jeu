@@ -6,14 +6,16 @@ onset: "#onSet:" nompub "\n"
 onunset: "#onUnset:" nompub "\n"
 ?nompriv: /[a-zA-Z0-9]+/
 nomprog: nompriv
-imgpath: nompriv | "none"
-piece: "#room:" nompub "\n" description piececontents
+imgpath: nompriv
+piece: "#room:" nompiece "\n" description piececontents
+nompiece: nompub
 piececontents: "#contents:" "\n\n" piecechoices
-piecechoices: choix piecechoices | choix
-choix: "#choice:" nompub "\n" description body choiximage requirementlist visibility sideeffects redirect "\n" ["\n"]
-?nompub: /[a-zA-Z0-9 .\"!?,\-'àéèêöüäïûùôÀÉÈÔ:]+/
+piecechoices: choix+
+choix: "#choice:" nomchoix "\n" description body choiximage requirementlist visibility sideeffects redirect "\n" ["\n"]
+nomchoix: nompub
+?nompub: /[a-zA-Z0-9 .\"!?,\-'âàéèêöüäïûùôÀÉÈÔ:]+/
 description: "#description:" nompub "\n"
-body: "#body:" /[a-zA-Z0-9 .\"!?,'àéèêöüäïûùôÀÉÈÔ:\n]+/ "§\n"
+body: "#body:" /[a-zA-Z0-9 .\"!?,'âàéèêöüäïûùôÀÉÈÔ:\n]+/ "§\n"
 visibility: "#visible:" bool "\n"
 
 bool: "true" -> true
@@ -21,14 +23,16 @@ bool: "true" -> true
 
 choiximage: "#image:" imgpath "\n"
 requirementlist: "#requirements:" requirements
-requirements: varstate varname "," requirements | varstate varname "\n" | "none" "\n"
+requirements: none "\n" | varstate varname "," requirements | varstate varname "\n"
 
 varstate: "no" -> no
     | "yes" -> yes
 
 varname: nompriv
 sideeffects: "#sideeffects:" effects
-effects: varaction varname "," effects | varaction varname "\n" | "none" "\n"
+effects: none "\n" | varaction varname "," effects | varaction varname "\n"
+
+none: "none"
 
 varaction: "set" -> set
     | "unset" -> unset
