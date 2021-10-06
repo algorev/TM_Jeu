@@ -16,7 +16,7 @@ function compileCode(cb) {
 }
 
 function compileStory(cb) {
-	exec('python compiler/compiler.py src/story _tempstory.json', function (err, stdout, stderr) {
+	exec('python3 compiler/compiler.py src/story _tempstory.json', function (err, stdout, stderr) {
 		console.log(stdout);
 		console.log(stderr);
 		cb(err);
