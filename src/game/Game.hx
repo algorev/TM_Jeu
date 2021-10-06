@@ -3,6 +3,6 @@ import js.Browser;
 
 class Game {
 	static function main(){
-		trace(haxe.Resource.getString("storyText"));
+		var storyData = haxe.Json.parse(haxe.Resource.getString("storyText"));
 	}
 }
