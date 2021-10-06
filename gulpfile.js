@@ -7,6 +7,13 @@ function transferStatic(cb) {
 	cb();
 }
 
+function copyAssets(cb) {
+	return src("src/assets/*").pipe(dest("bin/assets/"));
+	cb();
+}
+
+let transferAll = series(transferStatic, copyAssets);
+
 function compileCode(cb) {
 	exec('haxe build.hxml', function (err, stdout, stderr) {
 		console.log(stdout);
@@ -28,8 +35,8 @@ exports.watchSite = function () {
 }
 
 let compileGame = series(compileStory, compileCode);
-let makeAll = parallel(compileGame, transferStatic);
+let makeAll = parallel(compileGame, transferAll);
 
 exports.default = makeAll;
 exports.compile = compileGame;
-exports.update = transferStatic;
+exports.update = transferAll;
