@@ -32,49 +32,8 @@
 	/*height: 1.5em;*/
 }
 
-#tabswitch button{
-	border-radius: 0%;
-	background-color: #dddddd;
-	border: none;
-}
-
-#tabswitch button:hover, #tabswitch button.activebutton:hover{
-	background-color: #aaaaaa;
-}
-
-#tabswitch button:active, #tabswitch button.activebutton:active{
-	background-color: #666666;
-}
-
-#tabswitch button.activebutton{
-	background-color: #bbbbbb;
-}
-
-#journal{
-	background-color: pink;
-}
-
 #inventory{
 	background-color: plum;
-}
-
-#tabcontents{
-	height: 100%;
-	width: 100%;
-	background-color: cyan;
-	overflow-y: hidden;
-}
-
-#tabcontents div.currenttab{
-	display: inline-block;
-	height: 100%;
-	width: 100%;
-	overflow-y: scroll;
-	position: relative;
-}
-
-#tabcontents div{
-	display: none;
 }
 
 .choice{
