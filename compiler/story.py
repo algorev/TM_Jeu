@@ -39,7 +39,7 @@ class Variable:
         self.imageName = None
         self.onSet = None
         self.onUnset = None
-        self.value = True
+        self.value = False #It makes more sense that a variable be off by default.
     
     def serialize(self):
         return {
