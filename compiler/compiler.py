@@ -55,7 +55,11 @@ def make_variable(node):
         if attr.data == "nomprog":
             var.name = get_attr(attr)
         if attr.data == "imgpath":
-            var.imageName = get_attr(attr)
+            imageName = get_attr(attr)
+            if imageName == "none":
+                var.imageName = None
+            else:
+                var.imageName = imageName
         if attr.data == "varinfo":
             for info in attr.children:
                 if info.data == "onset":

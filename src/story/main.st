@@ -1,23 +1,18 @@
-#variable: mainvar testVarImage
-#onSet: Une variable dans le fichier principal.
-#onUnset: Un meurtre!
-#value: false
-
-#variable: otherVar testVarImage
+#variable: mainvar none
 #onSet: Une variable dans le fichier principal.
 #onUnset: Un meurtre!
 #value: true
 
-#room: Placeholder
-#description: Placeholder.
+#room: Le début
+#description: Ahahah lol.
 #contents:
 
-#choice: Truc
-#description: Machin
+#choice: Faire un truc
+#description: Jsp moi.
 #body: Le château de senarclens est en afrique du sud.
 Si, si, je vous assure.§
-#image: none
-#requirements: none
+#image: roomImage
+#requirements: no mainvar
 #visible: false
-#sideeffects: none
-#next: none
+#sideeffects: set anothervar, unset testvar
+#next: testRoom

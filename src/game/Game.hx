@@ -19,7 +19,7 @@ class Game extends ReactComponent{
 	}
 
 	override function render(){
-		return jsx('<div class="container">
+		return jsx('<div className="container">
 		<StoryPanel story={props.story} />
 		<VariablesPanel variableStruct={props.story.variables} />
 					</div>');
