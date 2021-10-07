@@ -63,7 +63,7 @@ def make_variable(node):
                 if info.data == "onunset":
                     var.onUnset = get_attr(info)
                 if info.data == "defaultvalue":
-                    val = get_attr(info)
+                    val = info.children[0].data
                     if val == "true":
                         var.value = True
                     else:
@@ -128,7 +128,7 @@ def make_choice(node):
     choice = Choice()
     for attr in node.children:
         if attr.data == "nomchoix":
-            choice.name = get_attr(attr)
+            choice.publicName = get_attr(attr)
         if attr.data == "description":
             choice.description = get_attr(attr)
         if attr.data == "body":
