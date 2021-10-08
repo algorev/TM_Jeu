@@ -36,11 +36,6 @@ except OSError:
     print("Could not create/modity the given destination file.")
     sys.exit(-1)
 
-storyData = {
-        "variables": {},
-        "rooms": {}
-    }
-
 with open(str(GRAMMAR), "r", encoding="utf8") as grammar:
     parser = Lark(grammar)
 
@@ -72,6 +67,8 @@ def make_variable(node):
                         var.value = True
                     else:
                         var.value = False
+    if var.imageName == None:
+        print("STORY COMPILER WARNING: Variable {} has no assigned image.".format(var.name))
     return var
 
 def list_sideeffects(se):
