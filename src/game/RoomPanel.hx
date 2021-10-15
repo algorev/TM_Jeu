@@ -3,8 +3,8 @@ import react.ReactMacro.jsx;
 import react.ReactComponent;
 import Types;
 
-class RoomPanel extends ReactComponentOf<RoomProp, Void>{
-	public function new(props:RoomProp){
+class RoomPanel extends ReactComponentOf<VarRoomProp, Void>{
+	public function new(props:VarRoomProp){
 		super(props);
 	}
 
@@ -20,13 +20,16 @@ class RoomPanel extends ReactComponentOf<RoomProp, Void>{
 	}
 
 	private function heading(){
+		var publicName = Helpers.unescape(props.room.publicName);
+		var description = Helpers.unescape(props.room.description);
 		return jsx('<div id="roomInfo">
-			<h1>{props.room.publicName}</h1>
-			<p>{props.room.description}</p>
+			<h1>{publicName}</h1>
+			<p>{description}</p>
 		</div>');
 	}
 }
 
-typedef RoomProp = {
+typedef VarRoomProp = {
 	var room:Room;
+	var variables:Dynamic;
 }

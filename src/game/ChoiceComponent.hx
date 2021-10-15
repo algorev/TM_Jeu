@@ -10,9 +10,11 @@ class ChoiceComponent extends ReactComponentOf<ChoiceProps, Void>{
 
 	override function render(){
 		var requirementImages = requirements();
+		var publicName = Helpers.unescape(props.choice.publicName);
+		var description = Helpers.unescape(props.choice.description);
 		return jsx('<div className="choice">
-			<h2>{props.choice.publicName}</h2>
-			<p>{props.choice.description}</p>
+			<h2>{publicName}</h2>
+			<p>{description}</p>
 		</div>');
 	}
 

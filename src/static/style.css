@@ -1,3 +1,28 @@
+@font-face {
+	font-family: Charter;
+	src: url(Charter-Regular.ttf);
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: Charter;
+	src: url(Charter-Bold.ttf);
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: Charter;
+	src: url(Charter-Italic.ttf);
+	font-style: italic;
+}
+
+@font-face {
+	font-family: Charter;
+	src: url(Charter-Bold-Italic.ttf);
+	font-style: italic;
+	font-weight: bold;
+}
+
 .container{
 	position: absolute;
 	top: 0px;
@@ -33,7 +58,7 @@
 #room, #results{
 	max-width: 800px;
 	width: 80%;
-	height: 100%;
+	min-height: 90%;
 	margin-top: 40px;
 	margin-left: auto;
 	margin-right: auto;
@@ -71,4 +96,8 @@
 	margin-left: auto;
 	margin-right: auto;
 	background-color: coral;
+}
+
+*{
+	font-family: Charter;
 }
