@@ -1,0 +1,16 @@
+@use 'theme';
+
+@mixin thumbnail {
+	height: 40px;
+	margin-right: 10px;
+	box-sizing: content-box;
+}
+
+@mixin normal-outline {
+	border: 2px solid theme.$accent;
+}
+
+@mixin disappointment-outline {
+	filter: brightness(75%);
+	border: 2px solid rgb(255, 0, 0);
+}

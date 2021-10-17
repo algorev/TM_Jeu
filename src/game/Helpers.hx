@@ -2,8 +2,7 @@ using StringTools;
 
 class Helpers{
 	public static function unescape(str:String){
-		trace(str);
-		return str.replace("\n", "\n")/*.replace("\\\"", "\"")*/;
+		return str; //once this was necessary, then it was useless, now it rests in peace.
 	}
 
 	public static function imagePath(name:Null<String>){

@@ -1,6 +1,7 @@
 @use 'fonts';
 @use 'choice';
 @use 'theme';
+@use 'results';
 
 .container{
 	position: absolute;
@@ -37,13 +38,13 @@
 #room, #results{
 	max-width: 800px;
 	width: 80%;
-	min-height: 90%;
+	/*min-height: 90%;*/
 	margin-top: 40px;
 	margin-left: auto;
 	margin-right: auto;
 	background-color: aliceblue;
 	box-sizing: border-box;
-	padding: 10px 10px 0px 10px;
+	padding: 10px 10px 1px 10px;
 }
 
 #inventory{
@@ -71,5 +72,6 @@
 }
 
 * {
+	font-family: Charter;
 	white-space: pre-line; /*fight the evil react*/
 }

@@ -6,8 +6,6 @@ import Reflect;
 import Helpers;
 
 class VariablesPanel extends ReactComponentOf<VarProp, VarProp>{
-	//var variableList:Array<Variable>;
-
 	public function new(props:VarProp){
 		super(props);
 		this.state = {

@@ -181,8 +181,6 @@ for filename in glob.glob(sourceDir + "/*.st"):
         if node.data == "piece":
             story.add_room(make_room(node, roomname))
 
-#print(json.dumps(story.serialize(), ensure_ascii=False, indent=4))
-
 #dump the dictionary as json to the file
 destFile.write(json.dumps(story.serialize(), ensure_ascii=False, indent=4))
 

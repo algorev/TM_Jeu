@@ -15,8 +15,10 @@ class ResultPanel extends ReactComponentOf<VarChoiceProp, Void>{
 		var callback = () -> props.variables.nextRoom(props.choice);
 		return jsx('<div id="results">
 			{info}
-			{consequences}
-			<button onClick={callback} className="enabled">CONTINUER</button>
+			<div id="consequences">
+				{consequences}
+				<button onClick={callback} className="enabled">CONTINUER</button>
+			</div>
 		</div>');
 	}
 
@@ -35,9 +37,7 @@ class ResultPanel extends ReactComponentOf<VarChoiceProp, Void>{
 			.fold((current, acc) -> acc.concat(current), []) //flatten
 			.map(varName -> Reflect.field(this.props.variables.variables, varName))
 			.map(sideEffectDesc);
-		return jsx('<div id="consequences">
-			{consequenceComponents}
-		</div>');
+		return consequenceComponents;
 	}
 
 	private function sideEffectDesc(variable:Variable){
