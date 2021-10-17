@@ -12,7 +12,7 @@
 #body: Le château de senarclens est en afrique du sud.
 Si, si, je vous assure.§
 #image: roomImage
-#requirements: no mainvar
-#visible: false
-#sideeffects: set anothervar, unset testvar
+#requirements: yes mainvar
+#visible: true
+#sideeffects: unset mainvar, unset anothervar
 #next: testRoom

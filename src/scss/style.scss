@@ -1,27 +1,6 @@
-@font-face {
-	font-family: Charter;
-	src: url(Charter-Regular.ttf);
-	font-weight: normal;
-}
-
-@font-face {
-	font-family: Charter;
-	src: url(Charter-Bold.ttf);
-	font-weight: bold;
-}
-
-@font-face {
-	font-family: Charter;
-	src: url(Charter-Italic.ttf);
-	font-style: italic;
-}
-
-@font-face {
-	font-family: Charter;
-	src: url(Charter-Bold-Italic.ttf);
-	font-style: italic;
-	font-weight: bold;
-}
+@use 'fonts';
+@use 'choice';
+@use 'theme';
 
 .container{
 	position: absolute;
@@ -88,16 +67,4 @@
 	margin-right: auto;
 	margin-bottom: 10px;
 	background-color: aqua;
-}
-
-.choice{
-	padding: 10px 20px 10px 20px;
-	width: 80%;
-	margin-left: auto;
-	margin-right: auto;
-	background-color: coral;
-}
-
-*{
-	font-family: Charter;
 }

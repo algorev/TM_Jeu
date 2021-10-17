@@ -141,7 +141,7 @@ def make_choice(node):
             else:
                 choice.imageName = imageName
         if attr.data == "visibility":
-            choice.visibility = True if get_attr(attr) == "true" else False
+            choice.visible = True if attr.children[0].data == "true" else False
         if attr.data == "redirect":
             nextRoom = get_attr(attr)
             if nextRoom == "none":

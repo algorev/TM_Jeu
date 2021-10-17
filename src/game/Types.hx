@@ -39,3 +39,13 @@ typedef SideEffects = {
 	var unset:Array<String>;
 	var flip:Array<String>;
 }
+
+typedef VarRoomProp = {
+	var room:Room;
+	var variables:VariableMutationKit;
+}
+
+typedef VariableMutationKit = {
+	var variables:Dynamic;
+	var updateVariables:(newVariables:Dynamic) -> Void;
+}

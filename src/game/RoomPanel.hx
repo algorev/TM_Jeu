@@ -10,7 +10,7 @@ class RoomPanel extends ReactComponentOf<VarRoomProp, Void>{
 
 	override function render(){
 		final roomDesc = heading(); //replace this with a functional react component
-		final choiceElements = props.room.choices.map(choice -> jsx('<ChoiceComponent choice={choice} />'));
+		final choiceElements = props.room.choices.map(choice -> jsx('<ChoiceComponent choice={choice} variables={props.variables} />'));
 		return jsx('<div id="room">
 			{roomDesc}
 			<div id="choiceList">
@@ -27,9 +27,4 @@ class RoomPanel extends ReactComponentOf<VarRoomProp, Void>{
 			<p>{description}</p>
 		</div>');
 	}
-}
-
-typedef VarRoomProp = {
-	var room:Room;
-	var variables:Dynamic;
 }

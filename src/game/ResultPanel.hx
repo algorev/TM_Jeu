@@ -3,8 +3,8 @@ import react.ReactMacro.jsx;
 import react.ReactComponent;
 import Types;
 
-class ResultPanel extends ReactComponentOf<ChoiceProp, Void>{
-	public function new(props:ChoiceProp){
+class ResultPanel extends ReactComponentOf<VarChoiceProp, Void>{
+	public function new(props:VarChoiceProp){
 		super(props);
 	}
 
@@ -31,6 +31,7 @@ class ResultPanel extends ReactComponentOf<ChoiceProp, Void>{
 	}
 }
 
-typedef ChoiceProp = {
+typedef VarChoiceProp = {
 	var choice:Choice;
+	var variables:Dynamic;
 }

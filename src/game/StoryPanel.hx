@@ -12,10 +12,10 @@ class StoryPanel extends ReactComponent{
 	
 	override function render(){
 		var mainElement = if (this.stage == RoomStage){
-			jsx('<RoomPanel room={props.story.rooms.main} />');
+			jsx('<RoomPanel room={props.story.rooms.main} variables={props.variables} />');
 		}
 		else {
-			jsx('<ResultPanel room={props.story.rooms.main.choices[0]} />');
+			jsx('<ResultPanel room={props.story.rooms.main.choices[0]} variables={props.variables} />');
 		}
 		return jsx('<div id="story">{mainElement}</div>');
 	}
