@@ -2,6 +2,7 @@ import react.React;
 import react.ReactMacro.jsx;
 import react.ReactComponent;
 import Types;
+using Lambda;
 
 class ResultPanel extends ReactComponentOf<VarChoiceProp, Void>{
 	public function new(props:VarChoiceProp){
@@ -11,9 +12,11 @@ class ResultPanel extends ReactComponentOf<VarChoiceProp, Void>{
 	override function render(){
 		var info = heading();
 		var consequences = sideEffects();
+		var callback = () -> props.variables.nextRoom(props.choice);
 		return jsx('<div id="results">
 			{info}
 			{consequences}
+			<button onClick={callback} className="enabled">CONTINUER</button>
 		</div>');
 	}
 
@@ -27,7 +30,23 @@ class ResultPanel extends ReactComponentOf<VarChoiceProp, Void>{
 	}
 
 	private function sideEffects(){
-		return jsx('<div id="consequences"></div>');
+		var consequenceComponents = Reflect.fields(this.props.choice.sideeffects)
+			.map(fieldName -> Reflect.field(this.props.choice.sideeffects, fieldName))
+			.fold((current, acc) -> acc.concat(current), []) //flatten
+			.map(varName -> Reflect.field(this.props.variables.variables, varName))
+			.map(sideEffectDesc);
+		return jsx('<div id="consequences">
+			{consequenceComponents}
+		</div>');
+	}
+
+	private function sideEffectDesc(variable:Variable){
+		var text = if (variable.value) variable.onSet else variable.onUnset;
+		var imageName = Helpers.imagePath(variable.imageName);
+		return jsx('<div className="consequence">
+			<img src={imageName}/>
+			<p className="consequenceText">{text}</p>
+		</div>');
 	}
 }
 

@@ -7,7 +7,7 @@ import js.Browser;
 import Types;
 import VariablesPanel;
 
-class Game extends ReactComponentOf<Dynamic, Story> {
+class Game extends ReactComponentOf<Dynamic, ProgressData> {
 	static function main() {
 		var storyData:Story = haxe.Json.parse(haxe.Resource.getString("storyText"));
 		ReactDOM.render(jsx('<Game story={storyData} />'), Browser.document.getElementById("container"));
@@ -15,27 +15,45 @@ class Game extends ReactComponentOf<Dynamic, Story> {
 
 	public function new(props:Dynamic) {
 		super(props);
-		this.state = this.props.story;
+		this.state = {
+			current: RoomView(props.story.rooms.main),
+			story: this.props.story
+		}
 	}
 
 	override function render() {
 		var varkit:VariableMutationKit = {
-			variables: this.state.variables,
-			updateVariables: updateVariables
+			variables: this.state.story.variables,
+			nextRoom: nextRoom,
+			chooseChoice: chooseChoice
 		}
-		trace("Rendered!");
-		trace(varkit);
-		trace("Oi!");
 		return jsx('<div className="container">
-			<StoryPanel story={this.state} variables={varkit} />
+			<StoryPanel story={this.state.story} variables={varkit} progress={this.state.current}/>
 			<VariablesPanel variableStruct={varkit.variables} />
 		</div>');
 	}
 
-	function updateVariables(newVariables:Dynamic) {
+	function nextRoom(choice:Choice) {
+		trace("arrived here!");
 		this.setState({
-			rooms: this.state.rooms,
-			variables: newVariables
+			current: RoomView(Reflect.field(this.state.story.rooms, choice.next)),
+			story: this.state.story
 		});
 	}
+
+	function chooseChoice(choice:Choice){
+		var newVariables = SideEffectHelper.computeDiffs(choice.sideeffects, this.state.story.variables);
+		this.setState({
+			current: ChoiceView(choice),
+			story: {
+				rooms: this.state.story.rooms,
+				variables: newVariables
+			}
+		});
+	}
+}
+
+typedef ProgressData = {
+	var current:CurrentView;
+	var story:Story;
 }

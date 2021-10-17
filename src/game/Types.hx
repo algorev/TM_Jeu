@@ -47,5 +47,11 @@ typedef VarRoomProp = {
 
 typedef VariableMutationKit = {
 	var variables:Dynamic;
-	var updateVariables:(newVariables:Dynamic) -> Void;
+	var nextRoom:(choice:Choice) -> Void;
+	var chooseChoice:(choice:Choice) -> Void;
+}
+
+enum CurrentView{
+	RoomView(room:Room);
+	ChoiceView(choice:Choice);
 }

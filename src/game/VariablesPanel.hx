@@ -20,7 +20,6 @@ class VariablesPanel extends ReactComponentOf<VarProp, VarProp>{
 			this.setState({
 				variableStruct: getVariableList()
 			});
-			trace(this.state);
 		}
 	}
 

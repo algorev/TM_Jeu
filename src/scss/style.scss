@@ -65,6 +65,11 @@
 	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-bottom: 20px;
 	background-color: aqua;
+}
+
+* {
+	white-space: pre-line; /*fight the evil react*/
 }

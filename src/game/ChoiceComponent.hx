@@ -44,7 +44,7 @@ class ChoiceComponent extends ReactComponentOf<VarChoiceProps, Void>{
 
 	private function button(){
 		var className:String;
-		var callback = () -> props.variables.updateVariables(SideEffectHelper.computeDiffs(props.choice.sideeffects, props.variables));
+		var callback = () -> props.variables.chooseChoice(this.props.choice);
 		if (RequirementHelper.checkIfSatisfied(props.choice.requirements, props.variables)){
 			className = "enabled";
 			return jsx('<button className={className} onClick={callback}>CHOISIR</button>');

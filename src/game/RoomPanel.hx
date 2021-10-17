@@ -9,7 +9,7 @@ class RoomPanel extends ReactComponentOf<VarRoomProp, Void>{
 	}
 
 	override function render(){
-		final roomDesc = heading(); //replace this with a functional react component
+		final roomDesc = heading();
 		final choiceElements = props.room.choices.map(choice -> jsx('<ChoiceComponent choice={choice} variables={props.variables} />'));
 		return jsx('<div id="room">
 			{roomDesc}
