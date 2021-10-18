@@ -13,11 +13,17 @@ class ResultPanel extends ReactComponentOf<VarChoiceProp, Void>{
 		var info = heading();
 		var consequences = sideEffects();
 		var callback = () -> props.variables.nextRoom(props.choice);
+		var button = if (props.choice.next != null){
+			jsx('<button onClick={callback} className="enabled">CONTINUER</button>');
+		}
+		else{
+			jsx('<div></div>');
+		}
 		return jsx('<div id="results">
 			{info}
 			<div id="consequences">
 				{consequences}
-				<button onClick={callback} className="enabled">CONTINUER</button>
+				{button}
 			</div>
 		</div>');
 	}
