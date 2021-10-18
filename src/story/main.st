@@ -1,18 +1,39 @@
-#variable: mainvar none
-#onSet: Une variable dans le fichier principal.
-#onUnset: Un meurtre!
-#value: true
-
-#room: Le début
-#description: Ahahah lol.
+#room: DEBUG MAIN
+#description: Point d'entrée de déboguage du jeu. Enlever pour la release.
 #contents:
 
-#choice: Faire un truc
-#description: Jsp moi.
-#body: Le château de senarclens est en afrique du sud.
-Si, si, je vous assure.§
-#image: roomImage
-#requirements: yes mainvar
+#choice: Chapitre 1
+#description: Lancer le chapitre 1.
+#body: Vous avez lancé le chapitre 1.§
+#image: none
+#requirements: none
 #visible: true
-#sideeffects: unset mainvar, unset anothervar
-#next: testRoom
+#sideeffects: none
+#next: chapitre1
+
+#choice: Chapitre 2
+#description: Lancer le chapitre 2.
+#body: Vous avez lancé le chapitre 2.§
+#image: none
+#requirements: none
+#visible: true
+#sideeffects: none
+#next: none
+
+#choice: Chapitre 3
+#description: Lancer le chapitre 3.
+#body: Vous avez lancé le chapitre 3.§
+#image: none
+#requirements: none
+#visible: true
+#sideeffects: none
+#next: none
+
+#choice: Épilogue
+#description: Lancer l'épilogue.
+#body: Vous avez lancé l'épilogue.§
+#image: none
+#requirements: none
+#visible: true
+#sideeffects: none
+#next: none
