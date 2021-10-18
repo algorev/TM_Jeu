@@ -1,4 +1,5 @@
 @use 'thumbnail';
+@use 'theme';
 
 #results{
 	#consequences{
@@ -11,11 +12,13 @@
 		flex-direction: row;
 		align-items: center;
 		justify-content: flex-start;
-		background-color: crimson;
+		background-color: theme.$backgroundlighter;
+		border: 1px solid theme.$accentsofter;
 		margin-bottom: 10px;
 		padding: 10px;
 		width: 100%;
 		box-sizing: border-box;
+		@include theme.boxshadow;
 
 		img{
 			@include thumbnail.thumbnail;
@@ -30,7 +33,13 @@
 	button{
 		float: right;
 		margin-bottom: 10px;
-		margin-right: 20px;
+		background-color: theme.$background;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	button:hover{
+		background-color: theme.$backgroundlighter;
 	}
 }
 

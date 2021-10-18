@@ -9,7 +9,7 @@
 	left: 0px;
 	width: 100vw;
 	height: 100vh;
-	background-color: blueviolet;
+	background-color: blueviolet; /*TODO: before deployment, change to theme.$background*/
 	display: grid;
 	grid-template-columns: 80% 20%;
 	grid-column-gap: 0em;
@@ -17,7 +17,7 @@
 }
 
 #story{
-	background-color: brown;
+	background-color: theme.$background;
 	overflow-y: scroll;
 	height: 100%;
 	padding: 10px 20px 10px 20px;
@@ -25,12 +25,12 @@
 }
 
  /* Hide scrollbar for Chrome, Safari and Opera */
-#story::-webkit-scrollbar, #inventory::-webkit-scrollbar {
+/*#story::-webkit-scrollbar,*/ #inventory::-webkit-scrollbar {
 	display: none;
 }
   
   /* Hide scrollbar for IE, Edge and Firefox */
-#story, #inventory {
+/*#story,*/ #inventory {
 	-ms-overflow-style: none;  /* IE and Edge */
 	scrollbar-width: none;  /* Firefox */
 }
@@ -42,13 +42,14 @@
 	margin-top: 40px;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: aliceblue;
+	background-color: theme.$backgroundlight;
 	box-sizing: border-box;
 	padding: 10px 10px 1px 10px;
+	border: 1px solid theme.$accentsofter;
 }
 
 #inventory{
-	background-color: plum;
+	background-color: theme.$backgroundlighter;
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: repeat(8, 1fr);
 	display: grid;
@@ -68,10 +69,11 @@
 	margin-right: auto;
 	margin-top: 10px;
 	margin-bottom: 20px;
-	background-color: aqua;
+	background-color: theme.$backgroundlighter;
 }
 
 * {
 	font-family: Charter;
 	white-space: pre-line; /*fight the evil react*/
+	color: theme.$textcolor;
 }

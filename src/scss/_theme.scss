@@ -1,3 +1,13 @@
+@use 'sass:color';
+
 $background: black;
-$accent: white;
+$backgroundlight: rgb(50, 50, 50);
+$backgroundlighter: rgb(90, 90, 90);
+$accent: gray;
+$accentsofter: color.scale($accent, $lightness: -30%);
 $hoveraccent: darkgray;
+$textcolor: white;
+
+@mixin boxshadow{
+	box-shadow: 5px 5px 0px 0px $background;
+}
