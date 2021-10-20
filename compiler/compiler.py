@@ -13,6 +13,7 @@ from lark import Lark
 from story import *
 import json
 
+ENCODING = "utf_8"
 PREFIX = Path(os.path.dirname(os.path.realpath(__file__)))
 GRAMMAR = PREFIX / Path("grammar.lark")
 
@@ -31,12 +32,13 @@ if not os.path.isdir(sourceDir):
     sys.exit(-1)
 
 try:
-    destFile = open(destFilename, 'w', encoding="utf8")
+    destFile = open(destFilename, 'w', encoding=ENCODING)
 except OSError:
-    print("Could not create/modity the given destination file.")
+    print("Could not create/modify the given destination file.")
     sys.exit(-1)
 
-with open(str(GRAMMAR), "r", encoding="utf8") as grammar:
+with open(str(GRAMMAR), "r", encoding=ENCODING) as grammar:
+    #print(grammar.read())
     parser = Lark(grammar)
 
 story = Story()
@@ -173,8 +175,10 @@ def make_room(node, roomName):
 
 for filename in glob.glob(sourceDir + "/*.st"):
     roomname = Path(filename).stem
-    with open(filename, "r", encoding="utf8") as contents:
-        tree = parser.parse(contents.read())
+    with open(filename, "r", encoding=ENCODING) as contents:
+        text = contents.read() # my life is a mystery
+        print("Compiling: " + filename)
+        tree = parser.parse(text)
     for node in tree.children:
         if node.data == "variable":
             story.add_variable(make_variable(node))

@@ -13,9 +13,9 @@ piececontents: "#contents:" "\n\n" piecechoices
 piecechoices: choix+
 choix: "#choice:" nomchoix "\n" description body choiximage requirementlist visibility sideeffects redirect "\n" ["\n"]
 nomchoix: nompub
-?nompub: /[a-zA-Z0-9 .\"!?,\-'âàéèêöüäïûùôÀÉÈÔ:]+/
+?nompub: /[a-zA-Z0-9 .\"!?,\-'âàéèêöüäïûùôÀÉÈÔ:;]+/
 description: "#description:" nompub "\n"
-body: "#body:" /[a-zA-Z0-9 .\"!?,'âàéèêöüäïûùôÀÉÈÔ:\n]+/ "§\n"
+body: "#body:" /[a-zA-Z0-9 .\"!?,'\-âàéèêöüäïûùôÀÉÈÔ:;\n]+/ "§\n"
 visibility: "#visible:" bool "\n"
 
 bool: "true" -> true
