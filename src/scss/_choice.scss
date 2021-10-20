@@ -20,13 +20,14 @@ button{
 button.enabled{
 	color: theme.$textcolor;
 	background-color: theme.$backgroundlight;
-	border: 2px solid theme.$accent;
+	@include thumbnail.normal-outline;
 }
 
 button.disabled{
 	color: theme.$textcolor;
-	background-color: darkgray;
-	border: 2px solid theme.$accent;
+	background-color: theme.$background;
+	/*border: 2px solid theme.$accent;*/
+	@include thumbnail.disappointment-outline;
 }
 
 button.enabled:hover{
