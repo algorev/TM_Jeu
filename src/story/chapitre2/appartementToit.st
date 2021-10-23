@@ -29,9 +29,11 @@ Le toit semblait vide, mais Lucky était nerveux. La femme comprit pourquoi lors
 
 Une silhouette s'avança, une chatte noire sortit de l'ombre d'un pas décidé. Elle émit un grondement menaçant à l'intention de Lucky, puis jeta un coup d'oeil vers la femme. En language humain, elle énonça d'un ton narquois:
 
-"Tu es revenu, 'Lucky'. Avec une humaine. Dis-moi, quelle raison peux-tu nous donner de ne pas t'éviscérer?"§
+"Tu es revenu, 'Lucky'. Avec une humaine. Dis-moi, quelle raison peux-tu nous donner de ne pas t'éviscérer?"
+
+"J'ai quelque chose à dire, dit Lucky, et elle aussi."§
 #image: none
 #requirements: none
 #visible: false
 #sideeffects: none
-#next: assemblee
+#next: assemblee1

@@ -15,11 +15,6 @@
 
 #variable: verifierLait none
 #onSet: Allez voir le bol de lait sur la fenêtre avant d'aller dormir.
-#onUnset: Vous avez vérifié le bol de lait.
-#value: false
-
-#variable: remplirLait none
-#onSet: Laissez un bol de lait avant d'aller dormir.
 #onUnset: Vous avez rempli le bol de lait.
 #value: false
 

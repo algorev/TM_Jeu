@@ -14,7 +14,7 @@
 #next: chapitre2
 
 #choice: "Pourquoi moi?"
-#description: Qu'avait la femme de spécial pour qu'un félin parlant rentre dans sa chambre au milieu de la nuit?
+#description: Qu'avait-elle de spécial pour qu'un félin parlant rentre dans sa chambre au milieu de la nuit?
 #body: "C'est simple. Tous les chats de la ville t'apprécient à cause du lait que tu laisses à ta fenêtre, et tu n'as jamais possédé un seul d'entre eux. Tu es le seul être humain qu'ils écouteront dans cette ville."§
 #image: none
 #requirements: none

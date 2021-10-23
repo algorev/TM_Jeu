@@ -8,7 +8,7 @@
 
 Entre elles, la rue montait en pente raide aussi loin que portait la vue, bordée de voitures et de lampadaires.
 
-Dans le creux en bas de la rue, où se trouvait la femme, se trouvait aussi une grande boule de marbre, de la taille de la femme.§
+Dans le creux en bas de la rue, où se trouvait la femme, se trouvait aussi une grande boule de marbre, d'à peu près sa taille.§
 #image: none
 #requirements: none
 #visible: false
@@ -19,7 +19,7 @@ Dans le creux en bas de la rue, où se trouvait la femme, se trouvait aussi une 
 #description: C'était la seule chose à faire.
 #body: La femme se mit à pousser la boule.
 
-Au début, elle était plus légère qu'elle ne semblait. Puis, au fur et à mesure que la femme la poussait, elle devenait plus lourde. Fatalement, la femme dut lâcher la boule, qui roula en bas de la rue.
+Au début, elle était plus légère qu'elle ne semblait. Puis, au fur et à mesure que la femme la poussait, elle devint plus lourde. Fatalement, la femme dut lâcher la boule, qui roula en bas de la rue.
 
 La femme reprit son souffle et redescendit vers la boule.§
 #image: none
