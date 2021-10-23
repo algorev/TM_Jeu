@@ -16,8 +16,8 @@ Nos pistes sur l'affaire des disparitions récentes§
 #next: rueLampadaires1
 
 #choice: Aller plus loin dans la rue
-#description: Une brise soufflait, faisant bouger l'affiche accrochée à un des lampadaires.
-#body: La rue était bordée de lampadaires qui jetaient une lumière blafarde sur les pavés et les fenêtres fermées. À un de ces lampadaires était accrochée une affiche que le vent faisait onduler.§
+#description: Le vent soufflait, faisant bouger l'affiche accrochée à un des lampadaires.
+#body: La rue était bordée de lampadaires qui jetaient une lumière blafarde sur les pavés et les fenêtres fermées. À un de ces lampadaires était accrochée une affiche que le vent secouait.§
 #image: none
 #requirements: none
 #visible: false

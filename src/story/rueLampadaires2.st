@@ -1,5 +1,5 @@
 #room: Plus loin dans la grande rue
-#description: La rue était éclairée par la lumière blafarde des lampadaires sur ses côtés. Sur l'un d'entre eux, une affiche flottait dans le vent. Plus loin, un passage menait à la ruelle de l'appartement de la femme.
+#description: La rue était éclairée par la lumière blafarde des lampadaires sur ses côtés. Sur l'un d'entre eux, une affiche flottait dans le vent.
 #contents:
 
 #choice: Aller lire l'affiche sur le lampadaire
@@ -8,11 +8,10 @@
 
 AVEZ-VOUS VU CE CHAT
 VU POUR LA DERNIÈRE FOIS CHEZ-
-IL S'APPEL-
+IL S'APPELLE CARAM-
 CONTACTEZ R-
 
-Une photo délavée figurait en haut; elle avait déteint sur le texte, rendant une partie illisible.
-Pour l'instant, ce chat resterait sans nom.§
+Une photo délavée figurait en haut; elle avait déteint sur le texte, rendant une partie illisible.§
 #image: none
 #requirements: none
 #visible: false
@@ -28,9 +27,9 @@ Pour l'instant, ce chat resterait sans nom.§
 #sideeffects: none
 #next: rueLampadaires1
 
-#choice: Aller dans la ruelle
-#description: À gauche, la petite entrée d'une ruelle. Dans cette ruelle, le repos après une longue journée.
-#body: La femme entra dans la ruelle. Elle était bientôt chez elle.§
+#choice: Continuer dans la rue
+#description: Plus avant, le bout de la rue.
+#body: Devant la femme, une route barrait le passage; c'était le bout de la rue.§
 #image: none
 #requirements: none
 #visible: false
