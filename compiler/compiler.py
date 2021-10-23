@@ -173,7 +173,9 @@ def make_room(node, roomName):
                 room.add_choice(make_choice(choice))
     return room
 
-for filename in glob.glob(sourceDir + "/*.st"):
+fileList = glob.glob(sourceDir + "/*.st") + glob.glob(sourceDir + "/*/*.st")
+
+for filename in fileList:
     roomname = Path(filename).stem
     with open(filename, "r", encoding=ENCODING) as contents:
         text = contents.read() # my life is a mystery

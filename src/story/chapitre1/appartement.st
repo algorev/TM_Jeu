@@ -1,5 +1,5 @@
-#room: La ruelle
-#description: La ruelle était bordée de plusieurs maisons, dont la plupart des lumières sont éteintes. Des affiches sont collées aux murs partout. Au bout, l'entrée de l'immeuble de la femme.
+#room: L'appartement
+#description: a
 #contents:
 
 #choice: Un regard furtif
@@ -19,12 +19,3 @@
 #visible: false
 #sideeffects: none
 #next: rueLampadaires3
-
-#choice: Entrer chez soi
-#description: Il y avait encore des choses à voir, plus tôt sur le chemin.
-#body: La femme revint sur ses pas, vers la grande rue.§
-#image: none
-#requirements: none
-#visible: false
-#sideeffects: none
-#next: appartement

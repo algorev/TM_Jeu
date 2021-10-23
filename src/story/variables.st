@@ -13,6 +13,11 @@
 #onUnset: On vous observe.
 #value: false
 
+#variable: faireLait none
+#onSet: Laissez un bol de lait avant d'aller dormir.
+#onUnset: Vous pouvez allez dormir.
+#value: false
+
 #room: Variables
 #description: Placeholder
 #contents:
