@@ -1,3 +1,4 @@
+import js.Browser;
 import react.React;
 import react.ReactMacro.jsx;
 import react.ReactComponent;
@@ -13,6 +14,7 @@ class StoryPanel extends ReactComponent{
 	override function componentDidUpdate(prevProps:Dynamic) {
 		if (prevProps != this.props) {
 			this.setState(this.props.progress);
+			Browser.document.getElementById("story").scrollTop = 0;
 		}
 	}
 	
