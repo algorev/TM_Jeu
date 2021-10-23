@@ -4,7 +4,7 @@
 
 #choice: Un regard furtif
 #description: La femme se retourna. Quelque chose la fixait depuis le buisson.
-#body: La femme se retourna. Une figure grise parit en courant. Un chat. En ce moment? D'où venait-il?§
+#body: La femme se retourna. Une figure grise partit en courant. Un chat. En ce moment? D'où venait-il?§
 #image: none
 #requirements: no observeParChat
 #visible: false
@@ -26,5 +26,5 @@
 #image: none
 #requirements: none
 #visible: false
-#sideeffects: unset rues, set appartement, set faireLait
+#sideeffects: unset rues, set appartement, set verifierLait
 #next: appartement

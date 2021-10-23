@@ -5,7 +5,7 @@
 
 #variable: appartement none
 #onSet: Vous êtes chez vous.
-#onUnset: Vous sortez de chez vous.
+#onUnset: Vous n'êtes plus chez vous.
 #value: false
 
 #variable: observeParChat none
@@ -13,9 +13,19 @@
 #onUnset: On vous observe.
 #value: false
 
-#variable: faireLait none
+#variable: verifierLait none
+#onSet: Allez voir le bol de lait sur la fenêtre avant d'aller dormir.
+#onUnset: Vous avez vérifié le bol de lait.
+#value: false
+
+#variable: remplirLait none
 #onSet: Laissez un bol de lait avant d'aller dormir.
-#onUnset: Vous pouvez allez dormir.
+#onUnset: Vous avez rempli le bol de lait.
+#value: false
+
+#variable: enTrainDeDormir none
+#onSet: Vous êtes en train de dormir.
+#onUnset: Vous êtes réveillée.
 #value: false
 
 #room: Variables

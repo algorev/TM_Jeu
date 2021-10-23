@@ -17,8 +17,8 @@
 #image: none
 #requirements: none
 #visible: true
-#sideeffects: none
-#next: none
+#sideeffects: set appartement, unset rues
+#next: chapitre2
 
 #choice: Chapitre 3
 #description: Lancer le chapitre 3.
