@@ -15,7 +15,7 @@
 #description: Il avait l'air si paisible.
 #body: La femme, bougeant doucement, passa la main sur la tête du chat. Le chat ronronna doucement, avant de se blottir plus profondément contre elle.
 
-La femme se sentait un petit peu mieux, maintenant.§
+La femme se sentait un petit peu mieux, à présent.§
 #image: none
 #requirements: none
 #visible: false

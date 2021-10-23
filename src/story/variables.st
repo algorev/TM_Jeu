@@ -28,6 +28,11 @@
 #onUnset: Vous êtes réveillée.
 #value: false
 
+#variable: toits none
+#onSet: Vous êtes sur les toits de la ville.
+#onUnset: Vous n'êtes plus sur les toits de la ville.
+#value: false
+
 #room: Variables
 #description: Placeholder
 #contents:
