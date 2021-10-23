@@ -41,7 +41,7 @@ exports.watchSite = function () {
 	watch("src/static/*", transferStatic);
 }
 
-let transferAll = series(transferStatic, buildStyles, copyAssets);
+let transferAll = parallel(transferStatic, buildStyles, copyAssets);
 let compileGame = series(compileStory, compileCode);
 let makeAll = parallel(compileGame, transferAll);
 
