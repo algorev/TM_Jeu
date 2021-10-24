@@ -1,5 +1,5 @@
 #room: La ruelle
-#description: La ruelle était bordée de plusieurs maisons, dont la plupart des lumières sont éteintes. Des affiches sont collées aux murs partout. Au bout, l'entrée de l'immeuble de la femme.
+#description: La ruelle était bordée de plusieurs maisons, dont la plupart des lumières étaient éteintes. Quelques affiches étaient collées aux murs. Au bout, l'entrée de l'immeuble de la femme.
 #contents:
 
 #choice: Un regard furtif

@@ -27,11 +27,11 @@ Puis il sauta, et elle le suivit.
 
 Le toit semblait vide, mais Lucky était nerveux. La femme comprit pourquoi lorsqu'elle vit les centaines de silhouettes grises qui les attendaient dans l'ombre des rebords.
 
-Une silhouette s'avança, une chatte noire sortit de l'ombre d'un pas décidé. Elle émit un grondement menaçant à l'intention de Lucky, puis jeta un coup d'oeil vers la femme. En language humain, elle énonça d'un ton narquois:
+Une silhouette s'avança, une chatte noire sortit de l'ombre d'un pas décidé. Elle feula à l'intention de Lucky, puis jeta un coup d'oeil vers la femme. En language humain, elle énonça d'un ton narquois:
 
 "Tu es revenu, 'Lucky'. Avec une humaine. Dis-moi, quelle raison peux-tu nous donner de ne pas t'éviscérer?"
 
-"J'ai quelque chose à dire, dit Lucky, et elle aussi."§
+"J'ai quelque chose à dire, Mra", dit Lucky. Il jeta un coup regard vers la femme et continua: "Et elle aussi."§
 #image: none
 #requirements: none
 #visible: false
