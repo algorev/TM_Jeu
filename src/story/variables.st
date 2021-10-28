@@ -28,6 +28,21 @@
 #onUnset: Vous n'êtes plus sur les toits de la ville.
 #value: false
 
+#variable: phase1 none
+#onSet: Vous cherchez 3 raisons pour lesquelles les chats devraient faire sécession des humains.
+#onUnset: Vous avez trouvé 3 raisons pour lesquelles les chats devraient faire sécession des humains.
+#value: false
+
+#variable: phase2 none
+#onSet: Vous cherchez 3 raisons pour lesquelles les chats devraient rester auprès des humains.
+#onUnset: Vous avez trouvé 3 raisons pour lesquelles les chats devraient rester auprès des humains.
+#value: false
+
+#variable: phase3 none
+#onSet: Vous devez aller chercher les affiches.
+#onUnset: Vous avez les affiches.
+#value: false
+
 #room: Variables
 #description: Placeholder
 #contents:

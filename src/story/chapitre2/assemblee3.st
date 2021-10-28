@@ -24,9 +24,9 @@ Lucky voulut argumenter:
 
 Mra le coupa: "Et toi, nous ne t'écouterons pas, tu n'as pas voix au chapitre, faiblard."
 
-Elle réfléchit un moment, puis se tourna à nouveau vers la femme.
+Elle réfléchit un moment, sonda la foule, puis se tourna à nouveau vers la femme.
 
-"Toi par contre, je veux quand même te laisser une chance de savoir pourquoi nous partons avant que nous ne le fassions."§
+"Toi par contre, je veux te laisser une chance de savoir pourquoi nous partons."§
 #image: none
 #requirements: none
 #visible: false

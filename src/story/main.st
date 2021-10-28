@@ -26,8 +26,8 @@
 #image: none
 #requirements: none
 #visible: true
-#sideeffects: none
-#next: none
+#sideeffects: unset rues, set toits
+#next: chapitre3
 
 #choice: Épilogue
 #description: Lancer l'épilogue.
