@@ -1,5 +1,5 @@
 #room: La grande rue
-#description: Dans la rue vide, rien ne bougeait. Un kiosque fermé se trouvait au bord de la rue.
+#description: La grande rue était aussi vide etimmobile qu'avant. Un kiosque fermé se trouvait au bord de la rue.
 #contents:
 
 #choice: Aller voir le kiosque
