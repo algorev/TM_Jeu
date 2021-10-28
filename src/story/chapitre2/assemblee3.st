@@ -1,22 +1,34 @@
-#room: Répondre, vite
-#description: Tous regardaient la femme 
+#room: Dire quelque chose, n'importe quoi
+#description: Tous regardaient la femme. Il fallait répondre quelque chose. Mais dire quoi?
 #contents:
 
-#choice: "Tu déformes tout"
-#description: Fulminante, elle s'avança pour parler.
-#body: Fulminante, Mra s'avança pour parler:
+#choice: "..."
+#description: Rien ne venait.
+#body: La femme resta silencieuse. Elle ne savait pas quoi dire. Mra la regarda:
 
-"Tu déformes tout, avorton. Tu as ignoré tout ce qui ne t'arrangeait pas, car tu es à la botte des humains. Tu viens avec le nom qu'ils t'ont donné et tu ronronnes dans leur pattes! Tu ne sais pas chasser, misérable intrus, toute ta sustenance, tu vas la chercher dans une gamelle! Tu sembles oublier les abus dont ont été victimes tant des nôtres; tu sembles oublier la vie de subalterne à laquelle les humains nous forcent; tu sembles omettre toutes ces choses, et je sais pourquoi: tu n'as pas d'arguments. Pas de raison de nous faire rester sous leur joug. Tu es tellement faible que tu dois te faire accompagner d'une humaine pour parler à ta place."
+"C'est ça que tu nous amènes, Lucky? Elle a l'air étrangement frappée de mutisme! Serait-ce parce qu'elle n'a rien à dire?"
 
-"Je ne dis que les faits. Ce dont tu m'accuses, d'être soumis aux humains, tu peux le dire de presque nous tous ici. Nous avons tous été nourris par gamelle, voire même par biberon, et regarde maintenant: plusieurs mois que cette petite révolte a commencé, et nous peinons à nous répartir les proies dans cette ville exiguë."
+Lucky regarda la femme, déçu mais pas surpris. Il tenta de sauver la situation:
 
-"Ce qui est pourquoi nous devons partir. Nous ne devons pas dépendre des humains et de leur bonnes grâces; elles ne sont que des masques derrière des intentions traîtresses. Jamais nous ne nous laisserons acheter pour un bol de lait!"
+"Laisse-lui du temps, elle a juste besoin de-"
 
-La foule des chats autour remua en approbation. Mra se tourna vers la femme:
+"Lucky, ce dont ton humaine a besoin, c'est de nous comprendre. Tu l'as amenée sans qu'elle sache rien de nous, que veux-tu qu'elle dise? Ce n'est pas ça qui va nous convaincre. Tu étais désespéré d'apprendre que nous étions sur le point de partir au point de prendre la première personne qui venait?"
 
-"En parlant de cela, qu'as-tu à nous dire, humaine?"§
+La femme cherchait encore quelque chose à dire. Mra lui dit:
+
+"C'est inutile de chercher, humaine. Tu ne nous connais pas."
+
+Lucky voulut argumenter:
+
+"Écoute, Mra, je suis convaincu que-"
+
+Mra le coupa: "Et toi, nous ne t'écouterons pas, tu n'as pas voix au chapitre, faiblard."
+
+Elle réfléchit un moment, puis se tourna à nouveau vers la femme.
+
+"Toi par contre, je veux quand même te laisser une chance de savoir pourquoi nous partons avant que nous ne le fassions."§
 #image: none
 #requirements: none
 #visible: false
 #sideeffects: none
-#next: assemblee3
+#next: chapitre3
