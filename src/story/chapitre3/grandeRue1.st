@@ -20,8 +20,8 @@ p.6: Un témoignage: "Nous gardons le nôtre avec nous en tout temps, on a telle
 #next: grandeRue1
 
 #choice: Aller dans une rue tortueuse
-#description: 
-#body: §
+#description: La rue partait vers la droite en suivant une forme étrange.
+#body: Ils s'engagèrent dans la rue tortueuse.§
 #image: none
 #requirements: none
 #visible: false
@@ -29,8 +29,8 @@ p.6: Un témoignage: "Nous gardons le nôtre avec nous en tout temps, on a telle
 #next: rueTortueuse
 
 #choice: Retourner dans la rue grise
-#description: 
-#body: §
+#description: Il était temps de revenir vers les chats.
+#body: Ils prirent la grande rue grise qui partait à gauche.§
 #image: none
 #requirements: none
 #visible: false

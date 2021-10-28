@@ -1,5 +1,5 @@
 #room: Une rue en pente
-#description: 
+#description: Ils étaient en haut d'une rue qui descendait en pente tout droit vers le centre ville. De là, on pouvait voir toute la ville en dessous.
 #contents:
 
 #choice: Retourner à la rue tortueuse
