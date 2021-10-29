@@ -188,6 +188,6 @@ for filename in fileList:
             story.add_room(make_room(node, roomname))
 
 #dump the dictionary as json to the file
-destFile.write(json.dumps(story.serialize(), ensure_ascii=False, indent=4))
+destFile.write(json.dumps(story.serialize(), ensure_ascii=False, separators=(',', ':')))
 
 destFile.close()
