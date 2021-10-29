@@ -13,7 +13,7 @@
 
 #choice: Aller dans une rue grise
 #description: Il n'allait pas se passer grand chose dans cette ruelle; il fallait sortir.
-#body: La femme et Lucky sortirent de la ruelle vide, aboutissantdans une autre rue vide, et tout aussi anonyme.§
+#body: La femme et Lucky sortirent de la ruelle vide, aboutissant dans une autre rue vide, et tout aussi anonyme.§
 #image: none
 #requirements: none
 #visible: false

@@ -43,6 +43,26 @@
 #onUnset: Vous avez les affiches.
 #value: false
 
+#variable: raisonPartirAnimalerie none
+#onSet: Vous avez trouvé une raison de partir en voyant la vitrine d'une animalerie.
+#onUnset: Il vous manque une raison de partir.
+#value: false
+
+#variable: raisonPartirVeterinaire none
+#onSet: Vous avez trouvé une raison de partir en voyant l'affiche d'un cabinet de vétérinaire.
+#onUnset: Il vous manque une raison de partir.
+#value: false
+
+#variable: raisonPartirMaison none
+#onSet: Vous avez trouvé une raison de partir en regardant par la fenêtre d'une maison.
+#onUnset: Il vous manque une raison de partir.
+#value: false
+
+#variable: raisonResterNourriture none
+#onSet: Vous avez trouvé une raison de rester en regardant un sac de nourriture pour chat.
+#onUnset: Il vous manque une raison de rester.
+#value: false
+
 #room: Variables
 #description: Placeholder
 #contents:
