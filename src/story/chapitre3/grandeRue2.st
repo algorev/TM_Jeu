@@ -28,7 +28,11 @@ VU POUR LA DERNIÈRE FOIS CHEZ-
 IL S'APPELLE CARAM-
 CONTACTEZ R-
 
-Une photo délavée figurait en haut; elle avait déteint sur le texte, rendant une partie illisible.§
+Une photo délavée figurait en haut; elle avait déteint sur le texte, rendant une partie illisible.
+
+Lucky vit que la femme regarfait l'affiche et dit: "Je ne comprends pas ce que vous, les humains, vous avez à fixer des feuilles de livre partout. Vous avez un sens bizarre de la décoration."
+
+La femme haussa un sourcil à cette remarque, mais ne releva pas.§
 #image: none
 #requirements: none
 #visible: false

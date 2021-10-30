@@ -8,7 +8,9 @@
 
 CHAT PERDU
 TRÈS TIMIDE, NE PAS BRUSQUER SI VOUS LE VOYEZ
-Contacter le XXX/XXX XX XX§
+Contacter le XXX/XXX XX XX
+
+Lucky lanca un regard vide vers l'affiche, puis s'affaira à autre chose pendant que la femme lisait.§
 #image: none
 #requirements: none
 #visible: false
@@ -23,7 +25,9 @@ Si vous voyé mon cha,
 appelé ma maman
 son numéro c'est XXX/XXX XX XX
 
-Au dessus figurait un dessin au crayon de couleur d'un chat, vers lequel pointait une flèche avec la légende: "Sheena"§
+Au dessus figurait un dessin au crayon de couleur d'un chat, vers lequel pointait une flèche avec la légende: "Sheena"
+
+Lucky explorait la rue plus loin, dépourvu de tout intérêt pour l'affiche.§
 #image: none
 #requirements: none
 #visible: false
@@ -40,7 +44,9 @@ Chat tig
                nière fois au XXX de
         très important pour moi
          le voyez appelez
-S'il vous plaît§
+S'il vous plaît
+
+Pendant que la femme lisait l'affiche, Lucky se frottait au lampadaire.§
 #image: none
 #requirements: none
 #visible: false

@@ -63,6 +63,16 @@
 #onUnset: Il vous manque une raison de rester.
 #value: false
 
+#variable: raisonResterAmour none
+#onSet: Vous avez trouvé une raison de rester en regardant un chat qui quittait son maître.
+#onUnset: Il vous manque une raison de rester.
+#value: false
+
+#variable: raisonResterLucky none
+#onSet: Vous avez trouvé une raison de rester en parlant à Lucky de sa famille.
+#onUnset: Il vous manque une raison de rester.
+#value: false
+
 #room: Variables
 #description: Placeholder
 #contents:

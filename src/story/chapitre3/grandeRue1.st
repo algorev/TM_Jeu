@@ -12,7 +12,9 @@ Nos pistes sur l'affaire des disparitions récentes
 
 p. 3: Statistiques: 90 pourcents des chats disparus dans la Ville?
 
-p.6: Un témoignage: "Nous gardons le nôtre avec nous en tout temps, on a tellement peur qu'il disparaisse"§
+p.6: Un témoignage: "Nous gardons le nôtre avec nous en tout temps, on a tellement peur qu'il disparaisse"
+
+Lucky regarda l'affiche d'un air ennuyé, puis partit sans faire de commentaire.§
 #image: none
 #requirements: none
 #visible: false
