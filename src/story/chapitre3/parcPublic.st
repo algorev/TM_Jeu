@@ -25,7 +25,7 @@ Le chat qui se frottait aux pieds de l'homme le regarda une fois, puis s'enfuit 
 #requirements: yes phase2, no raisonResterAmour
 #visible: false
 #sideeffects: set raisonResterAmour
-#next: culDeSac
+#next: parcPublic
 
 #choice: Retourner vers le quartier
 #description: Il n'y avait rien d'autre à voir dans le parc, à cette heure-là.

@@ -24,7 +24,7 @@ Pendant un moment, la femme pensa aux familles joyeuses qui venaient là adopter
 
 #choice: Retourner vers la grande route
 #description: Il y avait plus de choses à voir là-bas.
-#body: §
+#body: Dans la nuit silencieuse, ils retracèrent leur chemin jusqu'à la grande route.§
 #image: none
 #requirements: none
 #visible: false
