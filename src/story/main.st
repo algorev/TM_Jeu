@@ -53,5 +53,5 @@
 #image: none
 #requirements: none
 #visible: true
-#sideeffects: none
-#next: none
+#sideeffects: unset rues, set appartement
+#next: epilogue

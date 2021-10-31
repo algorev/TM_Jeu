@@ -83,7 +83,7 @@ Elle fit un mouvement de tête en direction de Lucky:
 #image: none
 #requirements: yes phase3, no affichesPrises
 #visible: false
-#sideeffects: none
+#sideeffects: unset phase3
 #next: affiches1
 
 #choice: Descendre dans la rue
