@@ -81,7 +81,7 @@ Elle fit un mouvement de tête en direction de Lucky:
 #description: C'était le grand moment.
 #body: La femme et Lucky arrivèrent en courant au milieu de la foule, la femme tenant les affiches dans ses mains. Les chats regardaient les affiches d'un air curieux. La femme commença à lire.§
 #image: none
-#requirements: yes phase3, no affichesPrises
+#requirements: yes phase3, yes affichesPrises
 #visible: false
 #sideeffects: unset phase3
 #next: affiches1
