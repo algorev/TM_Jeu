@@ -21,7 +21,13 @@ Elle commença à descendre les marches.§
 
 #choice: L'aube poignait
 #description: L'horizon s'éclaircissait. Les chats allaient partir. Il fallait vite leur exposer les raisons de rester.
-#body: TODO§
+#body: Les deux coururent au milieu du toit:
+
+"Écoutez-nous! Nous avons quelque chose d'important à dire!"
+
+Le silence tomba. Mra feula: "Que faites-vous ici? Je vous ai dit de partir!"
+
+Avant qu'elle puisse continuer, la femme la coupa: "Nous venons vous expliquer à tous pourquoi vous devriez rester."§
 #image: none
 #requirements: yes phase2, yes raisonResterAmour, yes raisonResterLucky, yes raisonResterNourriture
 #visible: false
