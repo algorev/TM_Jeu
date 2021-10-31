@@ -17,4 +17,4 @@ Il était temps de passer à l'argument suivant.§
 #requirements: yes raisonResterNourriture
 #visible: false
 #sideeffects: none
-#next: raisonDeRester2
+#next: raisonsDeRester2

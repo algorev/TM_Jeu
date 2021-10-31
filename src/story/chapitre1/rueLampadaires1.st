@@ -10,7 +10,7 @@
 QUI EST LE VOLEUR DE CHATS
 Nos pistes sur l'affaire des disparitions récentes
 
-p. 3: Statistiques: 90 pourcents des chats disparus dans la Ville?
+p. 3: Statistiques: nonante pourcents des chats disparus dans la Ville?
 
 p.6: Un témoignage: "Nous gardons le nôtre avec nous en tout temps, on a tellement peur qu'il disparaisse"§
 #image: none
