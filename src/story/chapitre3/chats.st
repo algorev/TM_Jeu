@@ -68,6 +68,24 @@ Elle fit un mouvement de tête en direction de Lucky:
 #sideeffects: none
 #next: chats
 
+#choice: Se rappeler
+#description: Qu'allait-on chercher?
+#body: C'est vrai. Ils allaient dans la grande rue chercher les affiches.§
+#image: none
+#requirements: yes phase3, no affichesPrises
+#visible: false
+#sideeffects: none
+#next: chats
+
+#choice: Montrer les affiches
+#description: C'était le grand moment.
+#body: La femme et Lucky arrivèrent en courant au milieu de la foule, la femme tenant les affiches dans ses mains. Les chats regardaient les affiches d'un air curieux. La femme commença à lire.§
+#image: none
+#requirements: yes phase3, no affichesPrises
+#visible: false
+#sideeffects: none
+#next: affiches1
+
 #choice: Descendre dans la rue
 #description: Il fallait y aller.
 #body: La femme descendit, suivie de Lucky.§

@@ -1,5 +1,5 @@
 #room: Plus loin dans la grande rue
-#description: La rue était éclairée par la lumière blafarde des lampadaires sur ses côtés. Sur l'un d'entre eux, une affiche flottait dans le vent.
+#description: La rue était éclairée par la lumière blafarde des lampadaires sur ses côtés.
 #contents:
 
 #choice: Regarder à travers la fenêtre d'une maison.
@@ -19,6 +19,17 @@ Il jeta un dernier regard triste vers le chaton, puis se retourna vers la rue.§
 #sideeffects: set raisonPartirMaison
 #next: grandeRue2
 
+#choice: Prendre toutes les affiches de la rue
+#description: Ils n'avaient qu'à prendre les affiches, puis ils pourraient revenir vers les chats pour les montrer.
+#body: La femme arracha toutes les affiches, observée par Lucky, impatient.
+
+Une fois ils affiches arrachées, elle se retrouva avec une pile de feuilles dans les mains. Ils pouvaient revenir vers les chats, maintenant.§
+#image: none
+#requirements: yes phase3, no affichesPrises
+#visible: false
+#sideeffects: set affichesPrises
+#next: grandeRue2
+
 #choice: Aller lire l'affiche sur le lampadaire
 #description: Un des deux morceaux de ruban adhésif qui la maintenait s'étant cassé, elle flottait dans le léger vent du soir.
 #body: Malmenée par les éléments, l'affiche disait:
@@ -30,11 +41,51 @@ CONTACTEZ R-
 
 Une photo délavée figurait en haut; elle avait déteint sur le texte, rendant une partie illisible.
 
-Lucky vit que la femme regarfait l'affiche et dit: "Je ne comprends pas ce que vous, les humains, vous avez à fixer des feuilles de livre partout. Vous avez un sens bizarre de la décoration."
+Lucky vit que la femme regardait l'affiche et dit: "Je ne comprends pas ce que vous, les humains, vous avez à fixer des feuilles de livre partout. Vous avez un sens bizarre de la décoration."
 
 La femme haussa un sourcil à cette remarque, mais ne releva pas.§
 #image: none
-#requirements: none
+#requirements: yes phase1
+#visible: false
+#sideeffects: none
+#next: grandeRue2
+
+#choice: Aller lire l'affiche sur le lampadaire
+#description: Un des deux morceaux de ruban adhésif qui la maintenait s'étant cassé, elle flottait dans le léger vent du soir.
+#body: Malmenée par les éléments, l'affiche disait:
+
+AVEZ-VOUS VU CE CHAT
+VU POUR LA DERNIÈRE FOIS CHEZ-
+IL S'APPELLE CARAM-
+CONTACTEZ R-
+
+Une photo délavée figurait en haut; elle avait déteint sur le texte, rendant une partie illisible.
+
+Lucky vit que la femme regardait l'affiche et dit: "Je ne comprends pas ce que vous, les humains, vous avez à fixer des feuilles de livre partout. Vous avez un sens bizarre de la décoration."
+
+La femme haussa un sourcil à cette remarque, mais ne releva pas.§
+#image: none
+#requirements: yes phase2
+#visible: false
+#sideeffects: none
+#next: grandeRue2
+
+#choice: Aller lire l'affiche sur le lampadaire
+#description: Un des deux morceaux de ruban adhésif qui la maintenait s'étant cassé, elle flottait dans le léger vent du soir.
+#body: Malmenée par les éléments, l'affiche disait:
+
+AVEZ-VOUS VU CE CHAT
+VU POUR LA DERNIÈRE FOIS CHEZ-
+IL S'APPELLE CARAM-
+CONTACTEZ R-
+
+Une photo délavée figurait en haut; elle avait déteint sur le texte, rendant une partie illisible.
+
+Lucky vit que la femme regardait l'affiche et dit: "Je ne comprends pas ce que vous, les humains, vous avez à fixer des feuilles de livre partout. Vous avez un sens bizarre de la décoration."
+
+La femme haussa un sourcil à cette remarque, mais ne releva pas.§
+#image: none
+#requirements: yes phase3, no affichesPrises
 #visible: false
 #sideeffects: none
 #next: grandeRue2

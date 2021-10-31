@@ -39,7 +39,7 @@
 #value: false
 
 #variable: phase3 none
-#onSet: Vous devez aller chercher les affiches.
+#onSet: Vous devez aller chercher les affiches de la grande rue pour les montrer aux chats.
 #onUnset: Vous avez les affiches.
 #value: false
 
@@ -71,6 +71,11 @@
 #variable: raisonResterLucky none
 #onSet: Vous avez trouvé une raison de rester en parlant à Lucky de sa famille.
 #onUnset: Il vous manque une raison de rester.
+#value: false
+
+#variable: affichesPrises none
+#onSet: Vous avez pris les affiches.
+#onUnset: Vous n'avez pas encore pris les affiches.
 #value: false
 
 #room: Variables
