@@ -9,6 +9,8 @@ typedef Variable = {
 	var imageName:String;
 	var onSet:String;
 	var onUnset:String;
+	var showIf:Null<Requirements>;
+	var removeIf:Null<Requirements>;
 	var value:Bool;
 }
 
@@ -25,6 +27,7 @@ typedef Choice = {
 	var imageName:Null<String>;
 	var visible:Bool;
 	var next:Null<String>;
+	var hideRequirements:Bool;
 	var requirements:Requirements;
 	var sideeffects:SideEffects;
 }
