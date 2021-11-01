@@ -27,11 +27,26 @@ class VariablesPanel extends ReactComponentOf<VarProp, VarProp>{
 	}
 
 	function getVariableList(){
+		function shouldVariableBeShown(variable:Variable){
+			var fakeMutationKit:VariableMutationKit = {
+				variables: this.props.variableStruct,
+				nextRoom: (choice -> null),
+				chooseChoice: (choice -> null)
+			}
+			if (variable.showIf == null){
+				return true;
+			}
+			else{
+				return RequirementHelper.checkIfSatisfied(variable.showIf, fakeMutationKit);
+			}
+		}
 		var variableList:Array<Variable> = [];
 		for (field in Reflect.fields(props.variableStruct)){
 			variableList.push(Reflect.getProperty(props.variableStruct, field));
 		}
-		return variableList.filter(variable -> variable.value);
+		return variableList
+				.filter(variable -> variable.value)
+				.filter(shouldVariableBeShown);
 	}
 
 	private static function makeVariableImage(variable:Variable) {
