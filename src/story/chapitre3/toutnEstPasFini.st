@@ -14,7 +14,7 @@ Elle marqua un temps de silence.
 
 "Explique."
 
-"Mra vient de l'extérieur. Elle nous a rasseblés pour partir parce qu'elle détestait les humains. Elle ne pouvait pas comprendre pourquoi on restait avec eux."
+"Mra vient de l'extérieur. Elle nous a rassemblés pour partir parce qu'elle détestait les humains. Elle ne pouvait pas comprendre pourquoi on restait avec eux."
 
 "Et?"
 

@@ -4,7 +4,7 @@
 
 #choice: Un déchet spécial
 #description: L'ensemble était nauséabond, mais un déchet attirait l'attention de Lucky...
-#body: Ne voulant pas s'approcher plus, Lucky regarda just très intensément le sac posé contre la benne. L'intention était claire. La femme prit le gros sac de nourriture pour chats et l'amena vers Lucky. Le sac était déjà ouvert. D'une pression, le chat le fit basculer et commença à se délecter des croquettes répandues au sol.
+#body: Ne voulant pas s'approcher plus, Lucky regarda juste très intensément le sac posé contre la benne. L'intention était claire. La femme prit le gros sac de nourriture pour chats et l'amena vers Lucky. Le sac était déjà ouvert. D'une pression, le chat le fit basculer et commença à se délecter des croquettes répandues au sol.
 
 La femme sourit: "Pas besoin d'une voix pour communiquer, des fois, hein?"
 

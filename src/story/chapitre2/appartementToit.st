@@ -31,7 +31,7 @@ Une silhouette s'avança, une chatte noire sortit de l'ombre d'un pas décidé. 
 
 "Tu es revenu, 'Lucky'. Avec une humaine. Dis-moi, quelle raison peux-tu nous donner de ne pas t'éviscérer?"
 
-"J'ai quelque chose à dire, Mra", dit Lucky. Il jeta un coup regard vers la femme et continua: "Et elle aussi."§
+"J'ai quelque chose à dire, Mra", dit Lucky. Il jeta un court regard vers la femme et continua: "Et elle aussi."§
 #image: none
 #requirements: none
 #visible: false

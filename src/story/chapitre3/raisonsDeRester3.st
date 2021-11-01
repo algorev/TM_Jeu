@@ -8,7 +8,7 @@
 
 Le regard de beaucoup finit de s'adoucir. Ils avaient les mêmes regrets que Lucky.
 
-Mra sauta sur l'occasion: "C'est là où tu te trompes, traître. Les humains ont l'amour facilee et faible. Ils ont imposé leurs voies dominantes sur les chats des années durant, et le jour où nous sommes partis, la plupart d'entre eux nous ont cherchés quelques heures, puis nous ont déclarés morts. Ils n'ont pas été capables de s'inquiéter pour nous une fois que nous sommes partis."
+Mra sauta sur l'occasion: "C'est là où tu te trompes, traître. Les humains ont l'amour facile et faible. Ils ont imposé leurs voies dominantes sur les chats des années durant, et le jour où nous sommes partis, la plupart d'entre eux nous ont cherchés quelques heures, puis nous ont déclarés morts. Ils n'ont pas été capables de s'inquiéter pour nous une fois que nous sommes partis."
 
 La femme l'interrompit: "Ils vous ont... déclarés morts? Pas du tout, ils se souciaient de vous et le font toujours maintenant! Qu'est-ce que tu racontes?"
 
@@ -24,7 +24,7 @@ Lucky se tourna vers elle: "Nos maîtres nous parlaient, ils ne nous faisaient p
 
 La femme marqua un temps de pause. Enfin, elle expliqua:
 
-"Ces affiches qui sont collées partout dans les rues, avec des images de vous dessus. Ce sont des avis de recherche. Vos maîtres voulaient vous retrouver, alors ils ont accroché des affiches qui vous décrivaient. Elles demandaient à tous ceux qui les lisaient de contacter vos maîtres si ils vous voyaient. À cause de leur travail, ils n'avaient pas le temps de vous chercher. Il y a eu une enquête pour vous. Des groupes de recherche volontaire. Comment ne les avez-vous pas vus?"
+"Ces affiches qui sont collées partout dans les rues, avec des images de vous dessus. Ce sont des avis de recherche. Vos maîtres voulaient vous retrouver, alors ils ont accroché des affiches qui vous décrivaient. Elles demandaient à tous ceux qui les lisaient de contacter vos maîtres s'ils vous voyaient. À cause de leur travail, ils n'avaient pas le temps de vous chercher. Il y a eu une enquête pour vous. Des groupes de recherche volontaire. Comment ne les avez-vous pas vus?"
 
 "Nous vivions cachés, en évitant les humains. Nous ne faisions pas attention à chaque groupe."
 

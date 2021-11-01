@@ -189,5 +189,6 @@ for filename in fileList:
 
 #dump the dictionary as json to the file
 destFile.write(json.dumps(story.serialize(), ensure_ascii=False, separators=(',', ':')))
+#destFile.write(json.dumps(story.serialize(), ensure_ascii=False, indent=4))
 
 destFile.close()

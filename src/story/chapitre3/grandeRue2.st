@@ -6,7 +6,7 @@
 #description: Dans une maison à gauche, les rideaux étaient ouverts. On pouvait voir voir ce qui se passait par la fenêtre.
 #body: Un couple était assis devant la télévision. En dessous de l'écran, une cage de voyage était posée. Depuis la grille de cette cage, le petit visage d'un chaton regardait pitoyablement Lucky et la femme par la fenêtre.
 
-"Ils le gardent auprès d'eux pour ne pas le perdre, dit Lucky. Quand Mra a commencé à rassembler les chats, et qque les humains ont commencé à remarquer, certains ont, comme ceux-ci, enfermé le leur pour qu'il ne disparaisse pas. On les appelle les chats qui ont vécu ça les 'piégés'. Certains ont pu s'échapper. D'autres pas."
+"Ils le gardent auprès d'eux pour ne pas le perdre, dit Lucky. Quand Mra a commencé à rassembler les chats, et que les humains ont commencé à remarquer, certains ont, comme ceux-ci, enfermé le leur pour qu'il ne disparaisse pas. On appelle les chats qui ont vécu ça les 'piégés'. Certains ont pu s'échapper. D'autres pas."
 
 Lucky marqua une pause. Il regarda la cage.
 

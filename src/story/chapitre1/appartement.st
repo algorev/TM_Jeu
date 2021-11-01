@@ -31,5 +31,5 @@ La femme prit une brique de lait dans le réfrigérateur et la versa dans le bol
 #image: none
 #requirements: no verifierLait
 #visible: true
-#sideeffects: set enTrainDeDormir, unset appartement
+#sideeffects: set enTrainDeDormir
 #next: sommeil1

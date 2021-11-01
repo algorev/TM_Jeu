@@ -26,7 +26,7 @@ La femme le regarda, silencieuse. Il continua:
 
 "Si tu tenais à eux, pourquoi es-tu parti, Lucky?"
 
-"Je voulais plus d'indépendance, comme les autres. M'appartenir à moi-même. Ne pas me faire castrer ou vendre parce qu'un humain en avait décidé pour moi. Suivre les autres. Ce n'est que après être parti que je me suis rendu compte de ce que j'avais quitté. Une maison qui tenait à moi. Un endroit qui m'accueillerait."
+"Je voulais plus d'indépendance, comme les autres. M'appartenir à moi-même. Ne pas me faire castrer ou vendre parce qu'un humain en avait décidé pour moi. Suivre les autres. Ce n'est qu'après être parti que je me suis rendu compte de ce que j'avais quitté. Une maison qui tenait à moi. Un endroit qui m'accueillait."
 
 "Pourquoi n'y es-tu pas retourné?"
 

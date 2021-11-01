@@ -6,7 +6,7 @@
 #description: Des renforts étaient arrivés.
 #body: La femme se leva et commença à pousser la boule. Comme avant, la boule commença par être légère, mais elle s'alourdit bientôt.
 
-Au moment ou la femme commençait à faiblir, les chats vinrent se joindre à elle pour pousser. La boule devenait de plus en plus lourde, mais les chats, sans un bruit, venaient de plus en plus nombreux pour aider, et poussaient la boule sans effort.
+Au moment où la femme commençait à faiblir, les chats vinrent se joindre à elle pour pousser. La boule devenait de plus en plus lourde, mais les chats, sans un bruit, venaient de plus en plus nombreux pour aider, et poussaient la boule sans effort.
 
 Ils poussaient, et poussaient, les chats contrant le poids de la boule. La femme sentit qu'ils allaient vaincre, qu'ils allaient arriver au bout de cette pente, leurs forces réunies, lorsqu'un bruit se détacha de l'effort silencieux.
 

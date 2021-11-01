@@ -19,7 +19,7 @@ Au loin, la femme pouvait voir une maison au toit rouge. Elle la connaissait: c'
 
 Deux personnes et un petit animal se tenaient devant la porte. Ils l'attendaient mais ne bougeaient pas non plus.
 
-La femme marcha et marcha, mais elle ne se rapprochait jamais.§
+La femme marcha et marcha, mais elle ne se rapprocha jamais.§
 #image: none
 #requirements: none
 #visible: false
