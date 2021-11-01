@@ -40,12 +40,38 @@ class Variable:
         self.onSet = None
         self.onUnset = None
         self.value = False #It makes more sense that a variable be off by default.
+        self.showIf = None
+        self.removeIf = None
+    
+    def add_show_if(self, varname, reqtype):
+        if self.showIf == None:
+            self.showIf = {
+            "yes": [],
+            "no": []
+            }
+        if reqtype in [Choice.REQUIREMENT_YES, Choice.REQUIREMENT_NO]:
+            self.showIf[reqtype].append(varname)
+        else:
+            raise Exception("Requirement type doesn't exist: {0} for requirement {1}".format(reqtype, varname))
+    
+    def add_remove_if(self, varname, reqtype):
+        if self.removeIf == None:
+            self.removeIf = {
+            "yes": [],
+            "no": []
+            }
+        if reqtype in [Choice.REQUIREMENT_YES, Choice.REQUIREMENT_NO]:
+            self.removeIf[reqtype].append(varname)
+        else:
+            raise Exception("Requirement type doesn't exist: {0} for requirement {1}".format(reqtype, varname))
     
     def serialize(self):
         return {
                 "imageName": self.imageName,
                 "onSet": self.onSet,
                 "onUnset": self.onUnset,
+                "showIf": self.showIf,
+                "removeIf": self.removeIf,
                 "value": self.value
             }
 
@@ -72,6 +98,7 @@ class Choice:
             "unset": [],
             "flip": []
             }
+        self.hideRequirements = False
         self.nextRoom = "error"
     
     def add_requirement(self, varname, reqtype):
@@ -95,6 +122,7 @@ class Choice:
             "requirements": self.requirements,
             "visible": self.visible,
             "sideeffects": self.sideEffects,
+            "hideRequirements": self.hideRequirements,
             "next": self.nextRoom
             }
 

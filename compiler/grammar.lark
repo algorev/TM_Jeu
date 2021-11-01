@@ -1,6 +1,8 @@
 start: variable* piece
 variable: "#variable:" nomprog imgpath "\n" varinfo
-varinfo: onset onunset [defaultvalue] "\n"
+varinfo: onset onunset [defaultvalue] [showif] [removeif] "\n"
+showif: "#showIf:" requirements
+removeif: "#removeIf:" requirements
 defaultvalue: "#value:" bool "\n"
 onset: "#onSet:" nompub "\n"
 onunset: "#onUnset:" nompub "\n"
@@ -11,8 +13,9 @@ piece: "#room:" nompiece "\n" description piececontents
 nompiece: nompub
 piececontents: "#contents:" "\n\n" piecechoices
 piecechoices: choix+
-choix: "#choice:" nomchoix "\n" description body choiximage requirementlist visibility sideeffects redirect "\n" ["\n"]
+choix: "#choice:" nomchoix "\n" description body choiximage requirementlist visibility sideeffects [hiderequirements] redirect "\n" ["\n"]
 nomchoix: nompub
+hiderequirements: "#hiderequirements\n"
 ?nompub: /[a-zA-Z0-9 .\"!?,\-'âàéèêëöüäïîûùôÀÉÈÔç:;]+/
 description: "#description:" nompub "\n"
 body: "#body:" /[a-zA-Z0-9 .\"!?,'\-\/âàéèêëöüäïîûùôÀÉÈÔç:;\n]+/ "§\n"

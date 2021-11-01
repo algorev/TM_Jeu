@@ -63,6 +63,16 @@ def make_variable(node):
                     var.onSet = get_attr(info)
                 if info.data == "onunset":
                     var.onUnset = get_attr(info)
+                if info.data == "showif":
+                    print("showif found")
+                    for key, conditions in list_requirements(info).items():
+                        for condition in conditions:
+                            var.add_show_if(condition, key)
+                if info.data == "removeif":
+                    print("removeif found")
+                    for key, conditions in list_requirements(info).items():
+                        for condition in conditions:
+                            var.add_remove_if(condition, key)
                 if info.data == "defaultvalue":
                     val = info.children[0].data
                     if val == "true":
@@ -144,6 +154,8 @@ def make_choice(node):
                 choice.imageName = imageName
         if attr.data == "visibility":
             choice.visible = True if attr.children[0].data == "true" else False
+        if attr.data == "hiderequirements":
+            choice.hideRequirements = True
         if attr.data == "redirect":
             nextRoom = get_attr(attr)
             if nextRoom == "none":
@@ -188,7 +200,7 @@ for filename in fileList:
             story.add_room(make_room(node, roomname))
 
 #dump the dictionary as json to the file
-destFile.write(json.dumps(story.serialize(), ensure_ascii=False, separators=(',', ':')))
-#destFile.write(json.dumps(story.serialize(), ensure_ascii=False, indent=4))
+#destFile.write(json.dumps(story.serialize(), ensure_ascii=False, separators=(',', ':')))
+destFile.write(json.dumps(story.serialize(), ensure_ascii=False, indent=4))
 
 destFile.close()
