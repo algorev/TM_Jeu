@@ -12,7 +12,7 @@ class ChoiceComponent extends ReactComponentOf<VarChoiceProps, Void>{
 
 	override function render(){
 		if (props.choice.visible || RequirementHelper.checkIfSatisfied(props.choice.requirements, props.variables)){
-		var requirementImages = requirements();
+		var requirementImages = if (props.choice.hideRequirements) [jsx('<div></div>')] else requirements();
 		var publicName = Helpers.unescape(props.choice.publicName);
 		var description = Helpers.unescape(props.choice.description);
 		var buttonComponent = button();
