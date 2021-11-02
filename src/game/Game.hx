@@ -34,7 +34,6 @@ class Game extends ReactComponentOf<Dynamic, ProgressData> {
 	}
 
 	function nextRoom(choice:Choice) {
-		trace("arrived here!");
 		this.setState({
 			current: RoomView(Reflect.field(this.state.story.rooms, choice.next)),
 			story: this.state.story
@@ -42,7 +41,18 @@ class Game extends ReactComponentOf<Dynamic, ProgressData> {
 	}
 
 	function chooseChoice(choice:Choice){
+		var nextDiffs:SideEffects = {
+			set: [],
+			unset: [],
+			flip: []
+		}
 		var newVariables = SideEffectHelper.computeDiffs(choice.sideeffects, this.state.story.variables);
+		nextDiffs.unset = Reflect.fields(newVariables)
+										.filter(variable -> RequirementHelper.checkIfSatisfied(
+																				(Reflect.field(newVariables, variable)).removeIf,
+																				RequirementHelper.fakeVarKit(newVariables)));
+		newVariables = SideEffectHelper.computeDiffs(nextDiffs, newVariables);
+		//trace(Reflect.fields(newVariables));
 		this.setState({
 			current: ChoiceView(choice),
 			story: {

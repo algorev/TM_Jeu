@@ -28,17 +28,8 @@ class VariablesPanel extends ReactComponentOf<VarProp, VarProp>{
 
 	function getVariableList(){
 		function shouldVariableBeShown(variable:Variable){
-			var fakeMutationKit:VariableMutationKit = {
-				variables: this.props.variableStruct,
-				nextRoom: (choice -> null),
-				chooseChoice: (choice -> null)
-			}
-			if (variable.showIf == null){
-				return true;
-			}
-			else{
-				return RequirementHelper.checkIfSatisfied(variable.showIf, fakeMutationKit);
-			}
+			var fakeMutationKit:VariableMutationKit = RequirementHelper.fakeVarKit(this.props.variableStruct);
+			return RequirementHelper.checkIfSatisfied(variable.showIf, fakeMutationKit);
 		}
 		var variableList:Array<Variable> = [];
 		for (field in Reflect.fields(props.variableStruct)){

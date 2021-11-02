@@ -40,26 +40,22 @@ class Variable:
         self.onSet = None
         self.onUnset = None
         self.value = False #It makes more sense that a variable be off by default.
-        self.showIf = None
-        self.removeIf = None
-    
-    def add_show_if(self, varname, reqtype):
-        if self.showIf == None:
-            self.showIf = {
+        self.showIf = {
             "yes": [],
             "no": []
             }
+        self.removeIf = {
+            "yes": [],
+            "no": []
+            }
+    
+    def add_show_if(self, varname, reqtype):
         if reqtype in [Choice.REQUIREMENT_YES, Choice.REQUIREMENT_NO]:
             self.showIf[reqtype].append(varname)
         else:
             raise Exception("Requirement type doesn't exist: {0} for requirement {1}".format(reqtype, varname))
     
     def add_remove_if(self, varname, reqtype):
-        if self.removeIf == None:
-            self.removeIf = {
-            "yes": [],
-            "no": []
-            }
         if reqtype in [Choice.REQUIREMENT_YES, Choice.REQUIREMENT_NO]:
             self.removeIf[reqtype].append(varname)
         else:

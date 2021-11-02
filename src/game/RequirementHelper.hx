@@ -32,6 +32,14 @@ class RequirementHelper{
 	public static function checkIfSatisfied(requirements:Requirements, variables:VariableMutationKit){
 		return (checkRequirements(requirements, variables)).unfulfilled.length == 0;
 	}
+
+	public static function fakeVarKit(variables:Dynamic) : VariableMutationKit{
+		return {
+			variables: variables,
+			nextRoom: (choice -> null),
+			chooseChoice: (choice -> null)
+		}
+	}
 }
 
 typedef CheckedReqs = {
