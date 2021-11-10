@@ -12,6 +12,7 @@
 #onSet: On vous observait.
 #onUnset: On vous observe.
 #value: false
+#removeIf: yes appartement
 
 #variable: verifierLait none
 #onSet: Allez voir le bol de lait sur la fenêtre avant d'aller dormir.

@@ -44,10 +44,7 @@ class Variable:
             "yes": [],
             "no": []
             }
-        self.removeIf = {
-            "yes": [],
-            "no": []
-            }
+        self.removeIf = None
     
     def add_show_if(self, varname, reqtype):
         if reqtype in [Choice.REQUIREMENT_YES, Choice.REQUIREMENT_NO]:
@@ -56,6 +53,11 @@ class Variable:
             raise Exception("Requirement type doesn't exist: {0} for requirement {1}".format(reqtype, varname))
     
     def add_remove_if(self, varname, reqtype):
+        if self.removeIf == None:
+            self.removeIf = {
+            "yes": [],
+            "no": []
+            }
         if reqtype in [Choice.REQUIREMENT_YES, Choice.REQUIREMENT_NO]:
             self.removeIf[reqtype].append(varname)
         else:

@@ -9,7 +9,7 @@ typedef Variable = {
 	var imageName:String;
 	var onSet:String;
 	var onUnset:String;
-	var showIf:Null<Requirements>;
+	var showIf:Requirements;
 	var removeIf:Null<Requirements>;
 	var value:Bool;
 }

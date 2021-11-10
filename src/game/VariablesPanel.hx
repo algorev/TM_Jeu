@@ -42,7 +42,7 @@ class VariablesPanel extends ReactComponentOf<VarProp, VarProp>{
 
 	private static function makeVariableImage(variable:Variable) {
 		var imageName = Helpers.imagePath(variable.imageName);
-		return jsx('<img src={imageName} title={variable.onSet} className="varimage" />');
+		return jsx('<VarImage source={imageName} desc={variable.onSet} cssClass="varimage" />');
 	}
 }
 

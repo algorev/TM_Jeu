@@ -38,11 +38,11 @@ class ResultPanel extends ReactComponentOf<VarChoiceProp, Void>{
 	}
 
 	private function sideEffects(){
-		var consequenceComponents = Reflect.fields(this.props.choice.sideeffects)
-			.map(fieldName -> Reflect.field(this.props.choice.sideeffects, fieldName))
-			.fold((current, acc) -> acc.concat(current), []) //flatten
-			.map(varName -> Reflect.field(this.props.variables.variables, varName))
-			.map(sideEffectDesc);
+		var consequenceComponents = Reflect.fields(SideEffectHelper.computeRippledEffects(this.props.choice.sideeffects, this.props.variables)) //get variable side effects field names
+			.map(fieldName -> Reflect.field(this.props.choice.sideeffects, fieldName)) //get a list of lists of variable names from them
+			.fold((current, acc) -> acc.concat(current), []) //flatten the list
+			.map(varName -> Reflect.field(this.props.variables.variables, varName)) //get variable from name
+			.map(sideEffectDesc); //create react component from it
 		return consequenceComponents;
 	}
 
