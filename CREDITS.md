@@ -3,7 +3,7 @@
 # Icônes
 
 - Empty de Rflor du Noun Project pour le symbole de place-holder (si tout se passe bien, vous ne l'avez pas vu).
-- Cat de Alina Oleynik du Noun Project pour la favicon du jeu (la petite icône qui s'affiche à côté du itre de l'onglet dans le navigateur).
+- Cat de Alina Oleynik du Noun Project pour la favicon du jeu (la petite icône qui s'affiche à côté du titre de l'onglet dans le navigateur).
 
 # Police Charter
 
