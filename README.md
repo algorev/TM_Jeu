@@ -2,7 +2,7 @@
 
 ## Description
 
-_La Ville des Chats_ est un court jeu web qui explore les relations entre les groupes dee gens et les images que chacun se fait de l'autre.
+_La Ville des Chats_ est un court jeu web qui explore les relations entre les groupes de gens et les images que chacun se fait de l'autre.
 
 _Synopsis:_ Les chats de la ville sont en train de disparaître, et personne ne sait pourquoi. Une nuit, une femme découvre pourquoi: les chats veulent faire sécession des humains et partir de la ville, et elle doit les convaincre de rester.
 
