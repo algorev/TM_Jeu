@@ -21,6 +21,7 @@ class VarImage extends ReactComponent {
 	}
 
 	private function deactivateTooltip() {
+		trace("tooltip deactivated!");
 		this.setState({
 			showTooltip: false
 		});

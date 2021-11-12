@@ -24,7 +24,7 @@ class Tooltip extends ReactComponent{
 	override function componentDidUpdate(prevProps:Dynamic) {
 		if (prevProps != this.props) {
 			this.state = Browser.document.getElementById("tooltip");
-			this.state.style.top = (this.props.pos.y + 2).toString() + "px";
+			this.state.style.top = (this.props.pos.y).toString() + "px";
 			this.state.style.right = Std.string(viewportDimensions.x - this.props.pos.x) + "px";
 		}
 	}

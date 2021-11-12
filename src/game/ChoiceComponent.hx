@@ -39,7 +39,7 @@ class ChoiceComponent extends ReactComponentOf<VarChoiceProps, Void>{
 		var classNames = "requirement " + (if (fulfilled) "fulfilled" else "unfulfilled");
 		var imgName = Helpers.imagePath(variable.imageName);
 		var title = if (variable.value) variable.onSet else variable.onUnset;
-		return jsx('<img className={classNames} src={imgName} title={title}/>');
+		return jsx('<VarImage cssClass={classNames} source={imgName} desc={title}/>');
 	}
 
 	private function button(){
