@@ -42,7 +42,6 @@ class Game extends ReactComponentOf<Dynamic, ProgressData> {
 
 	function chooseChoice(choice:Choice){
 		var newVariables = SideEffectHelper.computeDiffs(choice.sideeffects, this.state.story.variables);
-		//trace(Reflect.fields(newVariables));
 		this.setState({
 			current: ChoiceView(choice),
 			story: {

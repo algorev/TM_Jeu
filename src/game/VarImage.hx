@@ -21,7 +21,6 @@ class VarImage extends ReactComponent {
 	}
 
 	private function deactivateTooltip() {
-		trace("tooltip deactivated!");
 		this.setState({
 			showTooltip: false
 		});
@@ -32,7 +31,6 @@ class VarImage extends ReactComponent {
 			showTooltip: true,
 			pos: {x: event.pageX, y: event.pageY}
 		});
-		trace(this.state.pos);
 	}
 
 	override function render() {
