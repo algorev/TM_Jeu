@@ -1,9 +1,9 @@
 @use 'sass:color';
 
-$background: black;
-$backgroundlight: rgb(50, 50, 50);
-$backgroundlighter: rgb(90, 90, 90);
-$accent: gray;
+$background: #0b1728;
+$backgroundlight: color.scale($background, $lightness: +10%);
+$backgroundlighter: color.scale($background, $lightness: +20%);;
+$accent: hsl(39, 34%, 50%);
 $accentsofter: color.scale($accent, $lightness: -30%);
 $hoveraccent: darkgray;
 $textcolor: white;

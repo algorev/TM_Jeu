@@ -19,6 +19,10 @@
 
 #story{
 	background-color: theme.$background;
+	background-image: url(assets/background.svg);
+	background-position: center top;
+	background-size: 100% auto;
+	background-repeat: no-repeat;
 	overflow-y: scroll;
 	height: 100%;
 	padding: 10px 20px 10px 20px;
@@ -50,7 +54,7 @@
 }
 
 #inventory{
-	background-color: theme.$backgroundlighter;
+	background-color: theme.$background;
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: repeat(8, 1fr);
 	display: grid;
@@ -59,7 +63,10 @@
 }
 
 .varimage{
-	margin: 5px;
+	margin: 5%;
+	height: 90%;
+	width: 90%;
+	border: 2px solid theme.$accent;
 	/*margin-bottom: 10px;*/
 }
 
