@@ -26,6 +26,7 @@ Lucky lanca un regard vide vers l'affiche, puis s'affaira à autre chose pendant
 #requirements: yes phase1
 #visible: false
 #sideeffects: none
+#hiderequirements
 #next: grandeRue3
 
 #choice: Lire une affiche sur un panneau
@@ -43,6 +44,7 @@ Lucky explorait la rue plus loin, dépourvu de tout intérêt pour l'affiche.§
 #requirements: yes phase1
 #visible: false
 #sideeffects: none
+#hiderequirements
 #next: grandeRue3
 
 #choice: Lire une des affiches d'un lampadaire recouvert
@@ -62,6 +64,7 @@ Pendant que la femme lisait l'affiche, Lucky se frottait au lampadaire.§
 #requirements: yes phase1
 #visible: false
 #sideeffects: none
+#hiderequirements
 #next: grandeRue3
 
 #choice: Lire une affiche sur un lampadaire sale
@@ -77,6 +80,7 @@ Lucky lanca un regard vide vers l'affiche, puis s'affaira à autre chose pendant
 #requirements: yes phase2
 #visible: false
 #sideeffects: none
+#hiderequirements
 #next: grandeRue3
 
 #choice: Lire une affiche sur un panneau
@@ -94,6 +98,7 @@ Lucky explorait la rue plus loin, dépourvu de tout intérêt pour l'affiche.§
 #requirements: yes phase2
 #visible: false
 #sideeffects: none
+#hiderequirements
 #next: grandeRue3
 
 #choice: Lire une des affiches d'un lampadaire recouvert
@@ -113,6 +118,7 @@ Pendant que la femme lisait l'affiche, Lucky se frottait au lampadaire.§
 #requirements: yes phase2
 #visible: false
 #sideeffects: none
+#hiderequirements
 #next: grandeRue3
 
 #choice: Lire une affiche sur un lampadaire sale
@@ -128,6 +134,7 @@ Lucky lanca un regard vide vers l'affiche, puis s'affaira à autre chose pendant
 #requirements: yes phase3, no affichesPrises
 #visible: false
 #sideeffects: none
+#hiderequirements
 #next: grandeRue3
 
 #choice: Lire une affiche sur un panneau
@@ -145,6 +152,7 @@ Lucky explorait la rue plus loin, dépourvu de tout intérêt pour l'affiche.§
 #requirements: yes phase3, no affichesPrises
 #visible: false
 #sideeffects: none
+#hiderequirements
 #next: grandeRue3
 
 #choice: Lire une des affiches d'un lampadaire recouvert
@@ -164,6 +172,7 @@ Pendant que la femme lisait l'affiche, Lucky se frottait au lampadaire.§
 #requirements: yes phase3, no affichesPrises
 #visible: false
 #sideeffects: none
+#hiderequirements
 #next: grandeRue3
 
 #choice: Aller dans la ruelle

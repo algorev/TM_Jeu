@@ -48,6 +48,7 @@ La femme haussa un sourcil à cette remarque, mais ne releva pas.§
 #requirements: yes phase1
 #visible: false
 #sideeffects: none
+#hiderequirements
 #next: grandeRue2
 
 #choice: Aller lire l'affiche sur le lampadaire
@@ -68,6 +69,7 @@ La femme haussa un sourcil à cette remarque, mais ne releva pas.§
 #requirements: yes phase2
 #visible: false
 #sideeffects: none
+#hiderequirements
 #next: grandeRue2
 
 #choice: Aller lire l'affiche sur le lampadaire
@@ -88,6 +90,7 @@ La femme haussa un sourcil à cette remarque, mais ne releva pas.§
 #requirements: yes phase3, no affichesPrises
 #visible: false
 #sideeffects: none
+#hiderequirements
 #next: grandeRue2
 
 #choice: Retourner vers le kiosque
