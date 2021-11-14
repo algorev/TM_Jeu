@@ -27,12 +27,12 @@
      inkscape:zoom="15.763322"
      inkscape:cx="-6.2804021"
      inkscape:cy="15.986478"
-     inkscape:window-width="2880"
-     inkscape:window-height="1526"
-     inkscape:window-x="-5"
-     inkscape:window-y="-11"
+     inkscape:window-width="1920"
+     inkscape:window-height="986"
+     inkscape:window-x="-11"
+     inkscape:window-y="1609"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer2" />
+     inkscape:current-layer="layer1" />
   <defs
      id="defs2" />
   <g
@@ -40,7 +40,7 @@
      inkscape:groupmode="layer"
      id="layer1">
     <rect
-       style="fill:#ff9955;stroke-width:0.229146;stroke-linejoin:bevel"
+       style="fill:#002255;stroke-width:0.229146;stroke-linejoin:bevel"
        id="rect861"
        width="6.6106176"
        height="8.910655"
@@ -52,7 +52,7 @@
      id="layer2"
      inkscape:label="Heart">
     <path
-       style="fill:#002255;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ff9955;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="M 3.1614753,6.1767859 C 4.2932372,4.9331675 5.1511699,4.9232146 5.1667236,3.6042633 5.1727924,3.0896257 5.2381498,2.0777188 4.273293,1.8556172 3.81977,1.7512201 3.3587748,2.0443081 3.161475,2.6676014 2.8614729,1.8850171 2.4515758,1.8770464 2.066535,1.902379 1.4414928,1.9435017 1.0626213,2.9453237 1.1298421,3.6966104 1.2322953,4.8416706 1.9085962,4.9787218 3.1614753,6.1767859 Z"
        id="path934"
        sodipodi:nodetypes="csscssc" />

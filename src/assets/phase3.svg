@@ -25,14 +25,14 @@
      showgrid="false"
      units="px"
      inkscape:zoom="15.763322"
-     inkscape:cx="-6.2804021"
-     inkscape:cy="5.8363332"
-     inkscape:window-width="2880"
-     inkscape:window-height="1526"
-     inkscape:window-x="-5"
-     inkscape:window-y="-11"
+     inkscape:cx="8.7544998"
+     inkscape:cy="13.766134"
+     inkscape:window-width="1920"
+     inkscape:window-height="986"
+     inkscape:window-x="-11"
+     inkscape:window-y="1609"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer2" />
+     inkscape:current-layer="layer1" />
   <defs
      id="defs2" />
   <g
@@ -40,7 +40,7 @@
      inkscape:groupmode="layer"
      id="layer1">
     <rect
-       style="fill:#ff9955;stroke-width:0.235798;stroke-linejoin:bevel"
+       style="fill:#002255;stroke-width:0.235798;stroke-linejoin:bevel"
        id="rect861"
        width="6.697268"
        height="9.313489"
@@ -53,11 +53,11 @@
      inkscape:label="Exclamation">
     <path
        id="rect960"
-       style="fill:#002255;stroke:#4d4d4d;stroke-width:0"
+       style="fill:#ff9955;stroke:#4d4d4d;stroke-width:0"
        d="M 2.2529973,0.93994579 H 4.2426987 L 3.7720167,5.1546899 H 2.6594954 Z"
        sodipodi:nodetypes="ccccc" />
     <circle
-       style="fill:#002255;stroke:#4d4d4d;stroke-width:0"
+       style="fill:#ff9955;stroke:#4d4d4d;stroke-width:0"
        id="path1064"
        cx="3.2478483"
        cy="6.2565126"

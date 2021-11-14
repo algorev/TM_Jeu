@@ -27,10 +27,10 @@
      inkscape:zoom="15.763322"
      inkscape:cx="-6.2804021"
      inkscape:cy="15.986478"
-     inkscape:window-width="2880"
-     inkscape:window-height="1526"
-     inkscape:window-x="-5"
-     inkscape:window-y="-11"
+     inkscape:window-width="1920"
+     inkscape:window-height="986"
+     inkscape:window-x="-11"
+     inkscape:window-y="1609"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer2" />
   <defs
@@ -40,7 +40,7 @@
      inkscape:groupmode="layer"
      id="layer1">
     <rect
-       style="fill:#ff9955;stroke-width:0.229146;stroke-linejoin:bevel"
+       style="fill:#002255;stroke-width:0.229146;stroke-linejoin:bevel"
        id="rect861"
        width="6.6106176"
        height="8.910655"
@@ -52,20 +52,20 @@
      id="layer2"
      inkscape:label="Heart">
     <path
-       style="fill:#002255;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 1.9453617,3.0716084 C 2.7096126,2.2318236 3.2889534,2.2251026 3.2994564,1.3344473 3.3035545,0.9869253 3.3476888,0.3036095 2.6961448,0.1536297 2.3898919,0.083133 2.0785932,0.2810481 1.9453615,0.7019427 1.7427775,0.1734828 1.4659841,0.1681004 1.2059755,0.1852068 0.78389993,0.212976 0.52805743,0.8894817 0.57344993,1.396807 0.64263393,2.170038 1.0993233,2.2625853 1.9453617,3.0716084 Z"
+       style="fill:#ff9955;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 1.9453617,3.3737338 C 2.7096126,2.533949 3.2889534,2.527228 3.2994564,1.6365727 3.3035545,1.2890507 3.3476888,0.6057349 2.6961448,0.4557551 2.3898919,0.3852584 2.0785932,0.5831735 1.9453615,1.0040681 1.7427775,0.4756082 1.4659841,0.4702258 1.2059755,0.4873322 0.78389993,0.5151014 0.52805743,1.1916071 0.57344993,1.6989324 0.64263393,2.4721634 1.0993233,2.5647107 1.9453617,3.3737338 Z"
        id="path934"
        sodipodi:nodetypes="csscssc" />
     <path
        id="rect960"
-       style="fill:#002255;stroke:#4d4d4d;stroke-width:0"
-       d="M 4.0405724,3.7841472 H 5.1238981 L 4.8676275,6.0789341 H 4.2618969 Z"
+       style="fill:#ff9955;stroke:#4d4d4d;stroke-width:0"
+       d="M 4.0405724,4.0862726 H 5.1238981 L 4.8676275,6.3810595 H 4.2618969 Z"
        sodipodi:nodetypes="ccccc" />
     <circle
-       style="fill:#002255;stroke:#4d4d4d;stroke-width:0"
+       style="fill:#ff9955;stroke:#4d4d4d;stroke-width:0"
        id="path1064"
        cx="4.5822353"
-       cy="6.6788397"
+       cy="6.9809651"
        r="0.41352767" />
   </g>
 </svg>
