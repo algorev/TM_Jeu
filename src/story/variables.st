@@ -1,7 +1,7 @@
 #variable: rues rues
 #onSet: Vous êtes dans les rues de la ville.
 #onUnset: Vous n'êtes plus dans les rues de la ville.
-#value: true
+#value: false
 
 #variable: appartement appartement
 #onSet: Vous êtes chez vous.
