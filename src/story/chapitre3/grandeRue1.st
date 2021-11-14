@@ -40,7 +40,7 @@ Lucky regarda l'affiche d'un air ennuyé, puis partit sans faire de commentaire.
 #next: rueGrise
 
 #choice: Aller plus loin dans la rue
-#description: Le vent soufflait, faisant bouger l'affiche accrochée à un des lampadaires.
+#description: Le vent soufflait.
 #body: La rue était bordée de lampadaires qui jetaient une lumière blafarde sur les pavés et les fenêtres fermées. À un de ces lampadaires était accrochée une affiche que le vent secouait.§
 #image: none
 #requirements: none

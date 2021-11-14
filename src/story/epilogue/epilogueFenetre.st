@@ -24,7 +24,7 @@ Elle eut envie de retourner se balader sur ces toits à l'instant même, comme e
 
 #choice: Regarder les rues en dessous
 #description: En dessous de l'immeuble, la femme pouvait voir s'étaler le réseau complexe des rues de la ville.
-#body: La femme baissa les yeux. En dessous d'elle, la toile des rues sombres, éclairées par endroits par des lampadaires. C'était une toile infinie de chemins enlacés qui n'attendait que d'être parcourue, pleine de chemins et de recoins cachés qu'elle était. Véritablement, elle n'attendait qu'à être explorée.§
+#body: La femme baissa les yeux. En dessous d'elle, la toile des rues sombres, éclairées par endroits par des lampadaires. C'était une toile infinie de chemins enlacés qui n'attendait que d'être parcourue, pleine de recoins cachés. Véritablement, elle n'attendait qu'à être explorée.§
 #image: none
 #requirements: none
 #visible: false

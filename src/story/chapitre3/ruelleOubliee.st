@@ -1,5 +1,5 @@
 #room: Une ruelle oubliée
-#description: C'était une ruelle coincée entre 2 immeubles anonymes. Sa seule caractéristique notable était qu'elle contenait l'escalier de secours d'un des immeubles. Et au sommet de cet immeuble, un rassemblement des chats de la ville, accessoirement.
+#description: C'était une ruelle coincée entre deux immeubles anonymes. Sa seule caractéristique notable était qu'elle contenait l'escalier de secours d'un des immeubles. Et au sommet de cet immeuble, un rassemblement des chats de la ville, accessoirement.
 #contents:
 
 #choice: Remonter sur le toit de l'immeuble

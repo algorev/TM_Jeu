@@ -47,36 +47,43 @@
 #onSet: Vous avez trouvé une raison de partir en voyant la vitrine d'une animalerie.
 #onUnset: Il vous manque une raison de partir.
 #value: false
+#showIf: yes phase1
 
 #variable: raisonPartirVeterinaire raisonPartirVeterinaire
 #onSet: Vous avez trouvé une raison de partir en voyant l'affiche d'un cabinet de vétérinaire.
 #onUnset: Il vous manque une raison de partir.
 #value: false
+#showIf: yes phase1
 
 #variable: raisonPartirMaison raisonPartirMaison
 #onSet: Vous avez trouvé une raison de partir en regardant par la fenêtre d'une maison.
 #onUnset: Il vous manque une raison de partir.
 #value: false
+#showIf: yes phase1
 
 #variable: raisonResterNourriture raisonResterNourriture
 #onSet: Vous avez trouvé une raison de rester en regardant un sac de nourriture pour chat.
 #onUnset: Il vous manque une raison de rester.
 #value: false
+#showIf: yes phase2
 
 #variable: raisonResterAmour raisonResterAmour
 #onSet: Vous avez trouvé une raison de rester en regardant un chat qui quittait son maître.
 #onUnset: Il vous manque une raison de rester.
 #value: false
+#showIf: yes phase2
 
 #variable: raisonResterLucky raisonResterLucky
 #onSet: Vous avez trouvé une raison de rester en parlant à Lucky de sa famille.
 #onUnset: Il vous manque une raison de rester.
 #value: false
+#showIf: yes phase2
 
 #variable: affichesPrises affichesPrises
 #onSet: Vous avez pris les affiches.
 #onUnset: Vous n'avez pas encore pris les affiches.
 #value: false
+#showIf: yes phase3
 
 #room: Variables
 #description: Placeholder

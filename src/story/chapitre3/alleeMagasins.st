@@ -15,7 +15,7 @@ Lucky regarda la vitrine:
 
 "Je ne viens pas d'une animalerie. J'ai été adopté depuis un refuge. J'ai un vague souvenir de ma mère."
 
-Pendant un moment, la femme pensa aux familles joyeuses qui venaient là adopter un nouveau membre, chaque jour.§
+Pendant un moment, la femme pensa aux familles joyeuses qui venaient là adopter un nouveau membre, chaque jour. Ce ne devait pas être drôle, de se faire vendre.§
 #image: none
 #requirements: no raisonPartirAnimalerie, yes phase1
 #visible: false

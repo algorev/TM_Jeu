@@ -21,7 +21,7 @@ Un expert s'exprime: "Notre chat nous assure que non, mais on peut peut-être ar
 
 #choice: Vérifier le bol de lait sur la fenêtre
 #description: Vide, comme tous les soirs lorsqu'elle rentrait.
-#body: La femme sourit en voyant le bol vide. Elle le vérifiait en se réveillant et en rentrant chez elle le soir, et elle le trouvait toujours vide, depuis que les chats étaient revenus. Elle décida qu'elle le remplirait un peu plus tard.§
+#body: La femme sourit en voyant le bol vide. Elle le vérifiait en se réveillant et en rentrant chez elle le soir, et elle le trouvait toujours vide, depuis que les chats étaient revenus. Fatiguée ce soir-là, elle décida qu'elle le remplirait un peu plus tard.§
 #image: none
 #requirements: none
 #visible: false

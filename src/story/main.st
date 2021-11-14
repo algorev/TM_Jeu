@@ -53,5 +53,5 @@
 #image: none
 #requirements: none
 #visible: true
-#sideeffects: unset rues, set appartement, set toits, set raisonPartirAnimalerie, set raisonPartirMaison, set raisonPartirVeterinaire, set raisonResterAmour, set raisonResterLucky, set raisonResterNourriture
+#sideeffects: unset rues, set appartement, unset toits, set raisonPartirAnimalerie, set raisonPartirMaison, set raisonPartirVeterinaire, set raisonResterAmour, set raisonResterLucky, set raisonResterNourriture
 #next: epilogue
