@@ -26,7 +26,7 @@ Mra le coupa: "Et toi, nous ne t'écouterons pas, tu n'as pas voix au chapitre, 
 
 Elle réfléchit un moment, sonda la foule, puis se tourna à nouveau vers la femme.
 
-"Toi par contre, je veux te laisser une chance de savoir pourquoi nous partons."§
+"Toi, tu n'as rien à faire ici."§
 #image: none
 #requirements: none
 #visible: false

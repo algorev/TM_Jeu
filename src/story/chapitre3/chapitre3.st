@@ -2,19 +2,39 @@
 #description: Mra avait une proposition.
 #contents:
 
-#choice: "Va dans la ville..."
-#description: "Découvre pourquoi nous partons."
-#body: "Je n'ai aucune affinité pour toi, humaine, mais par égard l'attention que tu as portée aux autres chats sans jamais violer leur liberté, je ne peux pas t'exclure comme les autres humains.
+#choice: "Va-t-en."
+#description: "Tu n'as rien  à faire ici."
+#body: "Je ne sais pas ce que Lucky espérait en allant te chercher. Tu n'as jamais vécu comme nous. Tu n'as pas vu à travers nos yeux. Qu'as-tu l'orgueil de croire pouvoir nous dire? Tu n'as même pas quatre pattes pour bondir!
 
-Tous ici sauf moi te connaissent et t'apprécient. Pour porter leur gratitude, je vais te laisser voir ce qu'aucun autre humain dans la ville ne verra: pourquoi nous partons.
+Elle continua: "Je te laisse ce moment pour partir, et que tu emmènes Lucky avec toi. Vous deux feriez bien de le prendre."
 
-Certains d'entre nous ne sont pas encore arrivés. Nous avons lancé l'appel pour que tous les chats nous rejoignent il y a deux mois. Nous restons jusqu'à l'aube pour que les derniers nous rejoignent. Quand le soleil commencera à éclaircir l'horizon, nous partirons.
+La femme recula de quelques pas. Lucky jeta un regard à Mra et se dirigea vers l'escalier de secours.
 
-D'ici là, va dans la ville. Prends avec toi le traître, il te guidera. Reviens vers nous quand tu auras trouvé les raisons pour lesquelles nous voulons partir."
+"Viens, humaine."
 
-L'ordre avait été donné. Des chats s'écartèrent de devant l'escalier de secours. La mission était lancée.§
+La femme et Lucky descendirent.
+
+La femme demanda: "Donc c'est fini?"
+
+Lucky se tourna vers elle et dit: "Absolument pas."
+
+"Comment ça?"
+
+"J'ai fait une erreur, humaine. Je me suis trop précipité. On va réessayer."
+
+"Réessayer? Et qu'espères-tu? Me faire devenir un chat pour les convaincre?"
+
+"Plus ou moins."
+
+"...?"
+
+"Allons marcher dans la ville. Je veux te faire comprendre pourquoi les autres veulent partir. Je pense que si on trouve trois raisons, ça sera assez pour te faire comprendre le message."
+
+La femme réfléchit à ce changement de plan. Elle voulait que les chats restent.
+
+"D'accord. Essayons ça."§
 #image: none
 #requirements: none
 #visible: false
-#sideeffects: set phase1
-#next: chats
+#sideeffects: set phase1, unset toits, set rues
+#next: ruelleOubliee

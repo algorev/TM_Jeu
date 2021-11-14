@@ -10,9 +10,7 @@
 
 "Pour les faire rester!"
 
-Elle marqua un temps de silence.
-
-"Explique."
+La femme marqua un temps de silence, puis parla: "Quoi? Mra a raison. Vous haïssez les humains, non?"
 
 "Mra vient de l'extérieur. Elle nous a rassemblés pour partir parce qu'elle détestait les humains. Elle ne pouvait pas comprendre pourquoi on restait avec eux."
 
@@ -39,4 +37,4 @@ Elle marqua un temps de silence.
 #requirements: none
 #visible: false
 #sideeffects: set phase2
-#next: chats
+#next: ruelleOubliee
