@@ -16,8 +16,8 @@ class Tooltip extends ReactComponent{
 		this.state = null;
 		var body = Browser.document.getElementsByTagName("body")[0];
 		viewportDimensions = {
-			x: body.clientWidth,
-			y: body.clientHeight
+			x: body.clientWidth + 16, //add 16 because body has a margin of 8 on each side, apparently
+			y: body.clientHeight + 16
 		};
 	}
 

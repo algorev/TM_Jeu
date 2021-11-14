@@ -17,6 +17,10 @@
 	grid-row-gap: 0em;
 }
 
+body{
+	overflow: hidden; /* Maybe this will help fix the tooltip bugs. */
+}
+
 #story{
 	background-color: theme.$background;
 	background-image: url(assets/background.svg);

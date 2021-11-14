@@ -1,3 +1,13 @@
+@use 'theme';
+$tooltip-side-pad: 10px;
+
 #tooltip{
 	position: absolute;
+	background-color: theme.$background;
+	color: theme.$accent;
+	border: 2px solid theme.$accent;
+	padding-left: $tooltip-side-pad;
+	padding-right: $tooltip-side-pad;
+	word-wrap: break-word;
+	max-width: 10em;
 }
