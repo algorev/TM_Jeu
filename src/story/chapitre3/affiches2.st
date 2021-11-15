@@ -10,7 +10,7 @@ Un autre chat répondit: "Nous ne pouvons pas. C'est trop dangereux."
 
 "Pourquoi dangereux?"
 
-"Notre voix est un secret. Nous avons convenu que nous ne parlerions jamais à un humains dans sa langue, car il pourrait nous utiliser. Notre liberté en tant qu'animaux domestiques est d'être inutiles. Les humains pensent que nous ne les comprenons pas. De ce fait, nous pouvons faire ce que nous voulons. S'ils savaient que nous pouvions parler, ils se méfieraient de nous, et ils essaieraient de nous utiliser. En ce moment, nous sommes juste adoptés pour occuper la vie des humains, ou, au mieux, pour attraper les rats. S'ils savaient ce que nous pouvions faire, ils nous utiliseraient comme espions ou pire. C'est plus simple de rester soumis. Simplement, nous ne pouvions plus le supporter, alors nous avons voulu partir."
+"Notre voix est un secret. Nous avons convenu que nous ne parlerions jamais à un humain dans sa langue, car il pourrait nous utiliser. Notre liberté en tant qu'animaux domestiques est d'être inutiles. Les humains pensent que nous ne les comprenons pas. De ce fait, nous pouvons faire ce que nous voulons. S'ils savaient que nous pouvions parler, ils se méfieraient de nous, et ils essaieraient de nous utiliser. En ce moment, nous sommes juste adoptés pour occuper la vie des humains, ou, au mieux, pour attraper les rats. S'ils savaient ce que nous pouvions faire, ils nous utiliseraient comme espions ou pire. C'est plus simple de rester soumis. Simplement, nous ne pouvions plus le supporter, alors nous avons voulu partir."
 
 "Si vous restez muets, vous ne pourrez pas changer quoi que ce soit, à part en partant."
 

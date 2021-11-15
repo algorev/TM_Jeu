@@ -6,7 +6,7 @@
 #description: La femme avait trouvé, avec Lucky, trois raisons pour que les chats partent. Peut-être que Mra l'écouterait, maintenant.
 #body: Ils montèrent les escaliers et arrivèrent devant Mra. Mra leva les yeux, blasée: "Ne vous avais-je pas dit de partir?"
 
-La femme expliqua: "Lucky m'a montré. Je compreends mieux maintenant."
+La femme expliqua: "Lucky m'a montré. Je comprends mieux maintenant."
 
 Mra répondit d'un ton narquois: "Et? Si tu reviens ici c'est que tu n'as rien compris. Tu as vu pourquoi nous voulons partir, quelle sorte de grande raison peux-tu conjurer pour nous convaincre de rester? Nous dire de rentrer?"
 

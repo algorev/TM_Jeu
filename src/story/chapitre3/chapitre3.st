@@ -1,5 +1,5 @@
 #room: Chapitre 3: Les yeux de la ville
-#description: Mra avait une proposition.
+#description: MLa voix de Mra tonna.
 #contents:
 
 #choice: "Va-t-en."

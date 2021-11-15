@@ -6,7 +6,7 @@
 #description: Tout autour, des épis de blé à perte de vue. Au loin, une maison.
 #body: Tout autour, des épis de blé jaunes s'étalaient à perte de vue. Le ciel était d'un bleu profond, barré de cumulus blancs immobiles. Il n'y avait pas de vent. Tout était immobile.
 
-Au loin, la femme pouvait voir une maison au toit rouge. Elle la connaissait: c'était la sienne, lors de son enfance.§
+Au loin, la femme pouvait voir une maison au toit rouge. Elle la connaissait: c'était la sienne, durant son enfance.§
 #image: none
 #requirements: none
 #visible: false

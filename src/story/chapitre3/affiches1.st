@@ -6,7 +6,7 @@
 #description: La femme lisait les affiches, une à une. Les chats écoutaient.
 #body: La femme s'assit et commença à lire. Les chats l'écoutèrent énoncer le contenu de chaque affiche une à une.
 
-"Avez vous vu ce chat? Il s'appelle Caramel. Si vous le voyez, contactez..." à l'évocation du nom, un cat se redressa.
+"Avez vous vu ce chat? Il s'appelle Caramel. Si vous le voyez, contactez..." à l'évocation du nom, un chat se redressa.
 
 "Chat perdu. Très timide, ne pas brusquer..." Elle montra la photo du haut de l'affiche. Un chat s'y reconnut.
 

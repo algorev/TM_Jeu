@@ -4,7 +4,7 @@
 
 #choice: Regarder les immeubles du centre-ville
 #description: Au loin, la femme pouvait voir les lumières des immeubles du centre-ville. Derrière, les dernières lumières de la journée.
-#body: Les immeubles brillaient au loin, mais il n'étaient que quelques formes qui de découpaient sur l'immense arrière-plan du ciel du crépuscule. De grands nuages roses le traversaient, suivant les traînées d'avions qui étaient passés il y a bien longtemps.§
+#body: Les immeubles brillaient au loin, mais ils n'étaient que quelques formes qui se découpaient sur l'immense arrière-plan du ciel du crépuscule. De grands nuages roses le traversaient, suivant les traînées d'avions qui étaient passés il y a bien longtemps.§
 #image: none
 #requirements: none
 #visible: false
